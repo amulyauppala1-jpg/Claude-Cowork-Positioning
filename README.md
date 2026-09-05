@@ -29,7 +29,7 @@ personas/
     assets/       assets/       assets/       assets/      assets/
   _TEMPLATE.md                   Start here for a new persona
 brand/README.md                  Voice, tone, colors, logos
-plugin/                          Installable Cowork plugin — 9 asset skills + the tester
+plugin/                          Installable Cowork plugin — start-here router + 9 asset skills
 .claude/skills/                  Same skills, auto-loaded on clone — kept in sync by script
 scripts/                         Integrity checks — run before committing
 refresh-tasks.md                 Scheduled tasks to keep the foundation current
@@ -84,6 +84,11 @@ cd Claude-Cowork-Positioning && claude
 
 The skills in `.claude/skills/` load automatically for anyone in the repo. This
 is the path to use.
+
+**Then just ask.** Someone who has never seen this repo can say *"I need to use
+the Cowork positioning"* and the `start-here` skill works out the rest — who the
+audience is, what they need, and whether it's a one-team or company-wide
+purchase — in plain language. No file names, no jargon, nobody to ask.
 
 **Install as a plugin** — for people who shouldn't have to clone anything:
 

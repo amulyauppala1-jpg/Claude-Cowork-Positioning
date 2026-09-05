@@ -5,10 +5,11 @@ cloning anything, editing markdown, or asking the person who maintains it.
 
 ## What it does
 
-9 skills, all grounded in the same source:
+10 skills, all grounded in the same source:
 
 | Skill | Produces |
 |---|---|
+| `start-here` | **The front door.** Turns a vague ask into the right asset |
 | `blog-post` | Long-form article — must be useful to someone who never buys |
 | `campaign-email` | Marketing/nurture email, plus short paid copy |
 | `competitive-battlecard` | Category battlecard (see the gap note in the skill) |
@@ -19,9 +20,15 @@ cloning anything, editing markdown, or asking the person who maintains it.
 | `roleplay-tester` | Attacks a draft in character. Run before anything ships |
 | `sales-outreach-sequence` | Multi-touch 1:1 outreach cadence |
 
-Ask in plain language — *"landing page for a CFO"*, *"outreach sequence for a
-CRO"* — and the skill resolves the persona, checks the motion, ranks the value
-props for that buyer, and cites what it used.
+**If you don't know where to start, just say so.** Something like *"I need to
+use the Cowork positioning"* or *"help me make something for a finance buyer"*
+lands on `start-here`, which works out what you need by asking two or three
+plain questions — no file names, no jargon — then routes to the right skill.
+
+If you already know what you want, ask for it directly: *"landing page for a
+CFO"*, *"outreach sequence for a CRO"*. The skill resolves the persona, checks
+whether it's a departmental or company-wide purchase, ranks the value props for
+that buyer, and cites what it used.
 
 Two of these aren't generators, and they're the reason this is a system rather
 than a content mill:

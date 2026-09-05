@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-05 (front door)
+- `start-here` — a router skill with a deliberately broad trigger. Turns a vague ask into the right asset by inferring what it can and asking at most three plain-language questions. Never says "motion" — asks "one team, or the whole company?" instead. Raises known gaps (pricing, named competitors) before starting rather than after, and offers the roleplay check on delivery.
+- `.claude/skills/` mirrors all ten plugin skills, kept honest by `scripts/sync-skills.py --check`.
+
 ## 2026-09-05 (plugin skills)
 - Nine skills: `persona-one-pager`, `landing-page`, `pitch-and-narrative-deck`, `campaign-email`, `sales-outreach-sequence`, `blog-post`, `competitive-battlecard`, `internal-champion-pitch`, `roleplay-tester`.
 - `internal-champion-pitch` composes two persona files — the champion's for voice, the approver's for decision criteria — and carries no brand styling, since vendor-looking material can't be forwarded.
