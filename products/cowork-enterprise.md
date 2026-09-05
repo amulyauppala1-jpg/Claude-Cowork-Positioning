@@ -45,6 +45,10 @@ Assign Cowork a task and it handles research, analysis, documentation and report
 ### 2. Configured for how your org works {#vp-configured}
 Plugins allow you to deploy Cowork pre-configured for your org. Employees get an agent that already knows how to work at your company, on day one.
 - **RTB:** Plugins by job function and/or company-specific plugins that connect to org tools and include skills to perform specialized tasks. IT can manage the configuration.
+- **RTB — shipped, open-source plugin roster** (11 as of 2026-09-05): productivity, sales, customer-support, product-management, marketing, legal, finance, data, enterprise-search, bio-research, cowork-plugin-management. Plus financial-services plugins covering comps, DCF, LBO and 3-statement models. This matters because "configured for your org" is otherwise an abstract promise — the roster is what makes it checkable.
+  - *Marketing* — `/draft-content`, `/campaign-plan`, `/brand-review`, `/competitive-brief`, `/performance-report`, `/seo-audit`, `/email-sequence`. Connects Slack, Canva, Figma, HubSpot, Amplitude, Ahrefs, Klaviyo.
+  - *Finance* — journal entry prep, account reconciliation, financial statement generation, variance analysis, close management, audit support. Connects Snowflake, Databricks, BigQuery, Slack, Microsoft 365.
+  - Source: [plugin directory](https://claude.com/plugins/marketing), [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins). Launched 2026-01-30.
 
 ### 3. One deployment covers everyone {#vp-coverage}
 Every knowledge worker gets Cowork — across desktop, web, and mobile — working in Excel, PowerPoint, Chrome, and local files where it's installed. Every engineer gets Claude Code. One vendor, one deployment, full coverage.
@@ -61,4 +65,6 @@ Every knowledge worker gets Cowork — across desktop, web, and mobile — worki
 
 **Governance/compliance signal (Anthropic blog, August 11, 2026 — "Compliance API coverage extends to Claude Cowork and Claude Code"):** Anthropic extended its Compliance API to cover Cowork sessions across desktop, web, and mobile (beta for Enterprise customers at time of writing, GA as of an August 26, 2026 update), letting security/compliance teams pull Cowork session content and metadata the same way they already do for Claude chats — without separate logging infrastructure per surface. Directly supports the "one deployment, no shadow AI sprawl" value prop with a concrete, recent capability rather than just a claim.
 
-**Freshness check:** as of 2026-09-05, all three points above are ≤60 days old. Re-verify or replace before ~2026-12-05 (90-day ceiling) or sooner if Anthropic publishes newer usage data.
+**Function-level proof, first-party (Anthropic blog, July 8, 2026 — marketing operations):** Anthropic's own marketing ops team reduced a weekly metrics review from one to two days down to roughly two hours, and compressed multi-day event/campaign builds across Salesforce, HubSpot, Swoogo and Asana into an automated workflow. Notably the design is governed rather than autonomous: a separate audit agent (a fresh Claude instance) verifies output, a proofreading skill validates figures against verified sources, and a human approves before anything ships. Useful against the "AI produces unreviewable volume" objection, because the control structure is part of the described workflow rather than a promise.
+
+**Freshness check:** as of 2026-09-05, all four points above are ≤60 days old. Re-verify or replace before ~2026-12-05 (90-day ceiling) or sooner if Anthropic publishes newer usage data.

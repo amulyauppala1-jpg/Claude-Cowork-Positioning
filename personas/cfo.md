@@ -3,8 +3,9 @@ persona: CFO
 function: Finance
 seniority: C-level
 roles_by_motion:
-  departmental: approver        # appears above a spend threshold on someone else's buy
-  enterprise: economic_buyer    # owns the budget and the decision
+  departmental_other: approver         # someone else's function buys; CFO clears the threshold
+  departmental_finance: economic_buyer # finance itself is the landing team — CFO buys for their own function
+  enterprise: economic_buyer           # owns the budget and the decision org-wide
 applies_to: [cowork-enterprise]
 owner: TBD
 last_updated: 2026-09-05
@@ -19,7 +20,10 @@ sourcing: public-research   # public-research | connector-sourced | synthetic-mi
 >
 > - **Enterprise rollout** — the CFO is the economic buyer. Everything below
 >   applies as written. Make a case, drive to a decision.
-> - **Departmental buy** (a CMO or CRO landing Cowork for their function) — the
+> - **Finance-first land** — the CFO is buying for their own team. Lead with the
+>   finance plugin and `vp-executes`; the consolidation argument is premature and
+>   the ROI question answers itself through use. Often the strongest opening.
+> - **Another function's departmental buy** (a CMO or CRO landing Cowork) — the
 >   CFO is an approver above a spend threshold. The consolidation argument is
 >   weaker, because only one function's tools are being collapsed. Lead instead
 >   with the function head's business case and use this file only to pre-answer
@@ -108,6 +112,29 @@ pricing power — 86% of finance chiefs plan to increase emphasis on pricing in
 2026. Note the posture: cost discipline is *surgical*, not across-the-board —
 trimming corporate IT, HR and marketing while protecting spend that
 differentiates. Cowork must be argued into the second bucket.
+
+## What already ships for this function — and why it changes the sale
+
+The **finance plugin** is public and open-source: journal entry prep, account
+reconciliation, financial statement generation, variance analysis, close
+management, audit support — connecting Snowflake, Databricks, BigQuery, Slack
+and Microsoft 365. Separate financial-services plugins cover comps, DCF, LBO and
+3-statement models. Detail in `products/cowork-enterprise.md`.
+
+**This makes the CFO a potential user, not only a buyer, and that is the most
+useful fact in this file.** Every objection here is about proving a return on
+something they cannot personally evaluate. A finance-team land removes that
+problem: they experience close, reconciliation and variance work directly, and
+the ROI question becomes a measurement of their own function rather than an
+argument about someone else's.
+
+Practical consequence: **a finance-first land is a distinct and attractive path**
+to an enterprise deal. It converts the hardest buyer into a reference before
+they are asked to fund an org-wide rollout — and it changes their role in the
+motion (see below).
+
+> TODO(source): whether finance-first lands actually close faster is untested
+> here. The reasoning is sound; the evidence is not in this repo.
 
 ## Value props, ranked for this buyer
 

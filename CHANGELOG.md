@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-05 (first-party function messaging)
+- `products/cowork-enterprise.md` — added the shipped plugin roster (11 plugins, marketing and finance command lists) and a first-party proof point: Anthropic's own marketing ops team, weekly metrics review cut from 1-2 days to ~2 hours (blog 2026-07-08, 59 days old).
+- `personas/cmo.md` — brand-risk objection now answered with `/brand-review` and the audit-agent + human-approval structure rather than reassurance. `/competitive-brief` largely answers "do I have to build that?".
+- `personas/cfo.md` — the finance plugin makes the CFO a potential *user*, not only a buyer, which is the strongest available answer to the ROI objection. Added a third motion: a finance-first land where the CFO is the economic buyer for their own function.
+
 ## 2026-09-05 (CMO + sourcing rules)
 - `personas/cmo.md` — CMO. Value-prop ranking is close to the inverse of the CFO's, which is the motion model doing real work.
 - Skill rule: single sources inform a point of view, they do not establish a claim. An n=1 entry can corroborate or supply vocabulary, never solely support a value-prop ranking. Applied retroactively to the CFO file.

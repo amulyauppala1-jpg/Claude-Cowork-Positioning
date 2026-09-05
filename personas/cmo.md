@@ -82,6 +82,37 @@ credible to their board is doing more work than one that explains a feature.
 > sophisticated buyer and will backfire. The use is knowing what they may be
 > carrying, not naming it back at them.
 
+## What already ships for this function
+
+Check this before writing anything — assets that describe Cowork generically to
+a CMO are leaving the strongest material on the table.
+
+The **marketing plugin** is public and open-source: `/draft-content`,
+`/campaign-plan`, `/brand-review`, `/competitive-brief`, `/performance-report`,
+`/seo-audit`, `/email-sequence`, connecting Slack, Canva, Figma, HubSpot,
+Amplitude, Ahrefs and Klaviyo. Full detail in `products/cowork-enterprise.md`.
+
+Two of those commands answer objections in this file directly:
+
+- **`/brand-review`** — reviews content against brand voice and style guide.
+  The brand-risk objection has a shipped answer, not a reassurance. Lead with it
+  when brand risk comes up rather than arguing about governance in the abstract.
+- **`/competitive-brief`** — this is the Snowflake competitive-intelligence agent,
+  shipped. It substantially changes the answer to "do I have to build that?"
+
+**Anthropic's own marketing ops team** is the closest available proof: a weekly
+metrics review cut from one-to-two days to roughly two hours, and multi-day
+campaign builds automated across Salesforce, HubSpot, Swoogo and Asana. The
+governance design matters as much as the number — a separate audit agent
+verifies output, a proofreading skill checks figures against sources, and a
+human approves before anything ships. That structure is the honest answer to
+"how do I stop this producing off-brand work at scale": **review is built into
+the workflow, not bolted on after.**
+
+> Cited in `products/cowork-enterprise.md` (Anthropic blog, 2026-07-08 — 59 days
+> old, inside the 90-day ceiling). Use the product file's wording as the source
+> of truth.
+
 ## Value props, ranked for this buyer
 
 > **Departmental motion.** In an enterprise motion `vp-coverage` moves up, since
@@ -137,9 +168,12 @@ CMO can actually carry upward, and rules out the metric most AI tools lead with.
 
 **"How do I stop this producing off-brand content at scale?"**
 > Source: [eMarketer on AI brand safety 2026](https://www.emarketer.com/content/faq-on-brand-safety--how-ai-content-creator-marketing-reshaping-risk-2026); [CEOWORLD on AI content as brand risk](https://ceoworld.biz/2026/05/21/ai-content-is-a-real-brand-risk-smart-executives-are-already-one-step-ahead/) · confidence: public research
-> Route to `vp-configured` — configuration is the governance answer. Then the
-> Compliance API proof point in `products/cowork-enterprise.md` for the
-> auditability half.
+> Route to `vp-configured`, and be specific: `/brand-review` checks content
+> against brand voice and style guide, and Anthropic's own marketing workflows
+> put a separate audit agent plus human approval in front of anything shipping.
+> Then the Compliance API proof point in `products/cowork-enterprise.md` for the
+> auditability half. **Answer with the mechanism, not with reassurance** — this
+> objection is on procurement checklists and a vague answer fails the checklist.
 > **This objection is now on procurement checklists**, so it will be asked
 > formally even if the CMO personally doesn't care.
 
@@ -206,10 +240,13 @@ seen chat assistants. It reframes the category from "writes things faster" to
 "operates on our data" — which is the same reframe `vp-executes` needs.
 
 **The buyer's next question is "do I have to build that?"** Snowflake did, with
-an executive mandate and an internal AI council on 20% time. That is the honest
-gap, and `vp-configured` is the answer to it: plugins are the claim that you
-reach this without standing up an internal programme. Expect technically
-confident enterprises to consider building anyway.
+an executive mandate and an internal AI council on 20% time. But the answer is
+now largely **no**: `/competitive-brief` ships in the marketing plugin. The
+honest version is that the shipped command is a starting point and Snowflake's
+was tuned to their own data over time — so the gap is customization depth, not
+existence. That is a far better position than "you could build this too," and
+it is the single strongest use of this reference. Expect technically confident
+enterprises to consider building regardless.
 
 > Source: [Jason Lemkin, LinkedIn, 29 Oct 2025](https://www.linkedin.com/pulse/snowflakes-ai-revolution-how-transformed-marketing-sales-lemkin-n8ltf/) · confidence: practitioner opinion
 >
