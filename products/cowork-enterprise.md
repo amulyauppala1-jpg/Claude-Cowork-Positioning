@@ -38,15 +38,15 @@ Get Cowork for your team
 
 ## Value props and reasons to believe
 
-### 1. Agent that executes, not just answers
+### 1. Agent that executes, not just answers {#vp-executes}
 Assign Cowork a task and it handles research, analysis, documentation and reporting autonomously while your team focuses on higher-value work.
 - **RTB:** Multi-step execution without hand-holding — Claude handles the whole chain in the background, not just one step, and delivers high-quality outputs. Scheduled tasks let teams set recurring work once and have it delivered automatically.
 
-### 2. Configured for how your org works
+### 2. Configured for how your org works {#vp-configured}
 Plugins allow you to deploy Cowork pre-configured for your org. Employees get an agent that already knows how to work at your company, on day one.
 - **RTB:** Plugins by job function and/or company-specific plugins that connect to org tools and include skills to perform specialized tasks. IT can manage the configuration.
 
-### 3. One deployment covers everyone
+### 3. One deployment covers everyone {#vp-coverage}
 Every knowledge worker gets Cowork — across desktop, web, and mobile — working in Excel, PowerPoint, Chrome, and local files where it's installed. Every engineer gets Claude Code. One vendor, one deployment, full coverage.
 - **RTB:** Claude Desktop enterprise deployment and controls, now extending to cloud-run Cowork (beta) for machines that could never run a desktop install — Windows-locked, VDI, or otherwise locked-down environments. A single vendor process and relationship across all functions — no shadow AI sprawl, no separate procurement cycle per team.
 

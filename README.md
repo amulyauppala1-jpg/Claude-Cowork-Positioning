@@ -7,10 +7,20 @@ A single source of truth for Cowork positioning, set up so Claude Code reads fro
 ```
 .claude/skills/gtm-from-positioning/SKILL.md    The skill — auto-loads via Claude Code
 products/cowork-enterprise.md                    Enterprise positioning, with sourced proof points
+personas/                                        Per-role framing; references product props by slug
 refresh-tasks.md                                 Scheduled-task prompts for keeping the above current
+scripts/check-refs.py                            Verifies persona -> product references resolve
 ```
 
-Deliberately minimal right now: one positioning file, one skill. There are no `personas/`, `pillars/`, `pricing/`, or `segments/` folders yet — the skill checks what actually exists rather than assuming a fixed structure, so those can be added later without touching it.
+Deliberately minimal: one product file, one skill, and a growing `personas/` folder. No `pillars/`, `pricing/`, or `segments/` yet — the skill checks what actually exists rather than assuming a fixed structure.
+
+**How the two layers relate.** `products/` owns *what is true* — claims, capabilities, proof. `personas/` owns *emphasis* — which claims lead for which buyer, in what vocabulary, against which objections. Personas reference product value props by slug (`vp-executes`, `vp-configured`, `vp-coverage`) rather than restating them, so a reworded product claim can't silently drift from the persona files pointing at it.
+
+A persona's role is a property of the **deal shape**, not the person — the same CMO is the economic buyer for a departmental purchase and a champion in an enterprise rollout. Personas declare `roles_by_motion`, and the motion changes the value-prop ranking, sometimes inverting it.
+
+Run `python3 scripts/check-refs.py` before committing: it fails if a persona references a value prop slug that doesn't exist, so the link to the source of truth can't silently rot.
+
+Content that hasn't been gathered is marked `TODO(source)`, and stand-in content for connectors that aren't attached is marked `SYNTHETIC`. The skill treats both as missing rather than filling the gap.
 
 ## Using it
 
