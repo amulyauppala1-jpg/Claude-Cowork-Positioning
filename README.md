@@ -31,7 +31,8 @@ personas/
 brand/README.md                  Voice, tone, colors, logos
 plugin/                          Installable Cowork plugin — 12 skills, entry point is start-here
 .claude/skills/                  Same skills, auto-loaded on clone — kept in sync by script
-scripts/                         Integrity checks — run before committing
+scripts/                         Integrity checks and the bundle builder
+dist/                            Built .zip skill — one upload, nothing to connect
 refresh-tasks.md                 Scheduled tasks to keep the foundation current
 ```
 
