@@ -23,6 +23,51 @@ sourcing: public-research
 >
 > Establish which one you're writing for before you start.
 
+## Positioning — value proposition
+
+> **For** an in-house legal team reviewing more contracts than it can staff
+> **that need** review against their own risk posture rather than a generic standard
+> **Cowork** **is an** agentic workspace configured with the team's contract playbook
+> **that** triages and reviews clause by clause against that playbook, with
+> attorney review preserved.
+
+## Positioning — differentiation
+
+> **Unlike** generic AI review applying a standard it inferred rather than the
+> one you set
+> **Cowork provides** analysis against your playbook, with the human-review
+> boundary stated rather than glossed.
+
+> Structured to Geoffrey Moore's framework. It narrows the function-agnostic
+> statement in `products/cowork-enterprise.md` — it does not replace or
+> contradict it. **The "unlike" is the part that earns scrutiny:** it names the
+> alternative *this buyer* is actually weighing, which differs by role and is
+> where a weak differentiation claim shows up.
+>
+> `TODO(source)`: synthesized from the public research cited in this file, not
+> from customer interviews. The framework organizes insight; it does not create
+> it, so treat these as a hypothesis to test against real buyers.
+
+## The ladder
+
+Laddering: climb from what the product *is* to what it *means* for this buyer.
+
+| Rung | |
+|---|---|
+| **1. Feature** | Clause-by-clause review against your own playbook |
+| **2. Functional benefit** | NDA and contract queues triaged before a lawyer opens them |
+| **3. Business outcome** | Legal handles more volume without adding headcount |
+| **4. What it means for them** | You keep the judgment call and lose the reading |
+
+**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
+common failure in B2B copy, and it is structurally fine — it just argues at the
+wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
+conversation lives.
+
+**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
+personal exposure back to them reads as manipulative and costs you the room.
+Use it to decide what to lead with, not as a line in the asset.
+
 ## The GC is not only a gatekeeper
 
 The intuitive model is that the GC gates purchases and never makes them. The

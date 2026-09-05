@@ -20,6 +20,51 @@ sourcing: public-research
 > - **Enterprise rollout** — champion. They need a pipeline-impact case the CFO
 >   will accept, not a sales-tooling pitch.
 
+## Positioning — value proposition
+
+> **For** a revenue leader whose reps ignore the sales AI they already own
+> **that need** tooling shaped around how their team already sells
+> **Cowork** **is an** agentic workspace configured to the sales motion
+> **that** produces forecasts, pipeline reviews and call prep from the material
+> the team already has — including with no CRM connection.
+
+## Positioning — differentiation
+
+> **Unlike** sales AI that requires reps to change behaviour before it returns
+> anything
+> **Cowork provides** value in the leader's own hands on day one, independent
+> of rep adoption.
+
+> Structured to Geoffrey Moore's framework. It narrows the function-agnostic
+> statement in `products/cowork-enterprise.md` — it does not replace or
+> contradict it. **The "unlike" is the part that earns scrutiny:** it names the
+> alternative *this buyer* is actually weighing, which differs by role and is
+> where a weak differentiation claim shows up.
+>
+> `TODO(source)`: synthesized from the public research cited in this file, not
+> from customer interviews. The framework organizes insight; it does not create
+> it, so treat these as a hypothesis to test against real buyers.
+
+## The ladder
+
+Laddering: climb from what the product *is* to what it *means* for this buyer.
+
+| Rung | |
+|---|---|
+| **1. Feature** | Configured to your sales motion; runs without a CRM connection |
+| **2. Functional benefit** | Forecasts, pipeline reviews and call prep produced from what the team already has |
+| **3. Business outcome** | Selling time recovered without waiting on reps to change behaviour first |
+| **4. What it means for them** | This is the AI investment that didn’t get quietly abandoned at renewal |
+
+**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
+common failure in B2B copy, and it is structurally fine — it just argues at the
+wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
+conversation lives.
+
+**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
+personal exposure back to them reads as manipulative and costs you the room.
+Use it to decide what to lead with, not as a line in the asset.
+
 ## The opening position — and it's a third distinct one
 
 The three personas in this repo start from three different places, and confusing

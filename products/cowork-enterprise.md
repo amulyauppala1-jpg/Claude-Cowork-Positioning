@@ -11,6 +11,27 @@ category: agentic workspace
 # Cowork — Enterprise Positioning (function-agnostic)
 
 ## Positioning statement
+
+Structured to Geoffrey Moore's framework (*Crossing the Chasm*). Personas below
+inherit this shape and narrow it — see each persona's own value proposition.
+
+> **For** enterprises that have deployed AI broadly but still see it used as an
+> expensive search bar
+> **that need** work completed rather than assisted
+> **Cowork** **is an** agentic workspace
+> **that** executes multi-step work and delivers finished outputs, deployed once
+> by IT and configured per function.
+
+> **Unlike** chat assistants and point copilots that answer questions and leave
+> the work to the employee
+> **Cowork provides** multi-step execution across the tools a team already uses,
+> with the output finished rather than drafted.
+
+**Category matters here.** "Agentic workspace" and "AI assistant" get evaluated
+against different things — the first against outcomes, the second against
+answers. Don't let an asset drift into the second.
+
+### Long form
 For enterprises that have deployed AI but still see it used as an expensive search bar or chat, Cowork is the agentic workspace that turns Claude into a task-doing coworker for every knowledge worker — deployed once by IT and configured with plugins for how each function actually works.
 
 ## Differentiation

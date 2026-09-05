@@ -75,8 +75,14 @@ do not require judgment:
 5. **Status** — if the positioning file is `draft`, does the asset say so?
 6. **Motion fit** — an `economic_buyer` asset should handle objections in the
    body; a `champion` asset must be forwardable and not read as vendor material.
+7. **Altitude** — does it open on a feature (rung 1)? The lead should sit at
+   rung 2 or 3 of the persona's ladder. Quote the opening line and name its rung.
+8. **Positioning anti-patterns** — is any claim a tagline, a feature list, a
+   generic line that would fit any product, or aspirational fluff with no
+   specifics? Quote it. "For businesses that need efficiency" fails; so does
+   "revolutionises productivity."
 
-Report each as PASS or FAIL with the specific line at fault. **Do not soften a
+Report each of the eight as PASS or FAIL with the specific line at fault. **Do not soften a
 FAIL** — a passed asset that should have failed is worse than no check.
 
 ## Step 6 — Then role-play the buyer

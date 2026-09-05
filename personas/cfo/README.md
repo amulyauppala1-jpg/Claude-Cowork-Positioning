@@ -35,6 +35,51 @@ sourcing: public-research   # public-research | connector-sourced | synthetic-mi
 > handles them is the pitch. An asset that leads with capability and saves them
 > for a FAQ will lose to one that doesn't.
 
+## Positioning — value proposition
+
+> **For** a CFO whose company is already paying for AI in three or more places
+> **that need** the AI line to become predictable and consolidated rather than
+> growing team by team
+> **Cowork** **is a** single agentic workspace deployed once across every function
+> **that** replaces per-team AI subscriptions with one vendor, one contract and
+> one security review.
+
+## Positioning — differentiation
+
+> **Unlike** buying a separate AI tool for each function
+> **Cowork provides** one deployment covering every knowledge worker — making
+> the decision a consolidation rather than an addition.
+
+> Structured to Geoffrey Moore's framework. It narrows the function-agnostic
+> statement in `products/cowork-enterprise.md` — it does not replace or
+> contradict it. **The "unlike" is the part that earns scrutiny:** it names the
+> alternative *this buyer* is actually weighing, which differs by role and is
+> where a weak differentiation claim shows up.
+>
+> `TODO(source)`: synthesized from the public research cited in this file, not
+> from customer interviews. The framework organizes insight; it does not create
+> it, so treat these as a hypothesis to test against real buyers.
+
+## The ladder
+
+Laddering: climb from what the product *is* to what it *means* for this buyer.
+
+| Rung | |
+|---|---|
+| **1. Feature** | One deployment, one contract, one security review |
+| **2. Functional benefit** | The AI tools you already pay for get consolidated instead of joined |
+| **3. Business outcome** | AI run-rate becomes a single predictable line rather than a growing set |
+| **4. What it means for them** | You are the CFO who got AI spend under control — not the one who approved four overlapping subscriptions |
+
+**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
+common failure in B2B copy, and it is structurally fine — it just argues at the
+wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
+conversation lives.
+
+**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
+personal exposure back to them reads as manipulative and costs you the room.
+Use it to decide what to lead with, not as a line in the asset.
+
 ## What they own
 Budget authority over the line item, and the renewal. In 2026 the role has
 expanded past cost control into capital allocation and — increasingly —

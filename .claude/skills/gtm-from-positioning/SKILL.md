@@ -121,6 +121,40 @@ be stated plainly. `practitioner opinion` is a single person's synthesis with no
 sample behind it -- use it to shape framing, but don't render it as though it
 were survey data, and never attribute a statistic to it.
 
+## Step 2d: Structure and altitude
+
+Personas carry two structures. Use both.
+
+**Moore's framework** (`## Positioning` sections) gives the shape:
+*For [customer] that need [need], [product] is a [category] that [benefit]* --
+and *Unlike [alternative], [product] provides [differentiation]*. The `Unlike`
+clause earns the most scrutiny: it names the alternative **this** buyer is
+weighing, which differs by role. If an asset can't state it, the differentiation
+isn't defensible for that buyer.
+
+The **category** claim matters on its own. "Agentic workspace" and "AI assistant"
+get judged against different things -- outcomes versus answers. Don't let an
+asset drift into the second.
+
+**The ladder** (`## The ladder`) gives the altitude:
+
+1. Feature -- what it is
+2. Functional benefit -- what gets done
+3. Business outcome -- the number that moves
+4. What it means for them -- personal stake
+
+**Lead from rung 2 or 3, never rung 1.** Feature-led openings are the most common
+B2B failure: structurally fine, pitched a rung too low. **Rung 4 shapes what you
+emphasise and is rarely said aloud** -- naming someone's personal exposure back
+to them reads as manipulative.
+
+Four things a positioning claim is not, all easy to slip into:
+
+- **A tagline.** Positioning is not "Just Do It."
+- **A feature list.** "Provides AI, automation and integrations" says nothing.
+- **Generic.** "For businesses that need efficiency" is positioning theatre.
+- **Aspirational fluff.** "Revolutionises productivity" with no specifics is noise.
+
 ## Step 3: Build the asset
 
 - Every claim should trace to something actually present in the fetched file(s). Flag gaps rather than filling them with a plausible guess.

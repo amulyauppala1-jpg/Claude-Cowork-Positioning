@@ -21,6 +21,52 @@ sourcing: public-research
 > - **Enterprise rollout** — the CMO is a champion arming the CFO. What they need
 >   is a forwardable business case in finance's language, not a marketing pitch.
 
+## Positioning — value proposition
+
+> **For** a marketing leader who has already committed budget to AI and cannot
+> show what it returned
+> **that need** finished work rather than more drafts to review
+> **Cowork** **is an** agentic workspace configured for marketing
+> **that** completes campaign work end to end — brief through to performance
+> report — with brand review inside the workflow.
+
+## Positioning — differentiation
+
+> **Unlike** chat assistants and content tools that produce drafts a person
+> still has to finish
+> **Cowork provides** completed deliverables and a review step, so the time
+> saved is not spent back on reviewing.
+
+> Structured to Geoffrey Moore's framework. It narrows the function-agnostic
+> statement in `products/cowork-enterprise.md` — it does not replace or
+> contradict it. **The "unlike" is the part that earns scrutiny:** it names the
+> alternative *this buyer* is actually weighing, which differs by role and is
+> where a weak differentiation claim shows up.
+>
+> `TODO(source)`: synthesized from the public research cited in this file, not
+> from customer interviews. The framework organizes insight; it does not create
+> it, so treat these as a hypothesis to test against real buyers.
+
+## The ladder
+
+Laddering: climb from what the product *is* to what it *means* for this buyer.
+
+| Rung | |
+|---|---|
+| **1. Feature** | Agents complete campaign work end to end, with brand review in the workflow |
+| **2. Functional benefit** | Work comes back finished rather than as drafts someone still has to review |
+| **3. Business outcome** | Marketing capacity rises without the review queue rising with it |
+| **4. What it means for them** | You can finally answer “what did the AI spend buy us” with something specific |
+
+**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
+common failure in B2B copy, and it is structurally fine — it just argues at the
+wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
+conversation lives.
+
+**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
+personal exposure back to them reads as manipulative and costs you the room.
+Use it to decide what to lead with, not as a line in the asset.
+
 ## The thing that makes this buyer different from the CFO
 
 **They have already bought AI.** 15.3% of the average marketing budget already

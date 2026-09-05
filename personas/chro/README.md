@@ -22,6 +22,52 @@ sourcing: public-research
 >   workforce reskilling and change management for exactly this kind of rollout.
 >   `vp-coverage` therefore lands better here than with any other function head.
 
+## Positioning — value proposition
+
+> **For** a people leader accountable for AI outcomes their employer can be
+> sued over
+> **that need** AI that works from their own written policy and leaves a record
+> **Cowork** **is an** agentic workspace configured to the organisation's HR policy
+> **that** handles onboarding, policy and documentation work with session-level
+> auditability.
+
+## Positioning — differentiation
+
+> **Unlike** general-purpose AI pointed at HR work with no policy grounding and
+> no audit trail
+> **Cowork provides** work that traces to the company's own policy and can be
+> produced in a review.
+
+> Structured to Geoffrey Moore's framework. It narrows the function-agnostic
+> statement in `products/cowork-enterprise.md` — it does not replace or
+> contradict it. **The "unlike" is the part that earns scrutiny:** it names the
+> alternative *this buyer* is actually weighing, which differs by role and is
+> where a weak differentiation claim shows up.
+>
+> `TODO(source)`: synthesized from the public research cited in this file, not
+> from customer interviews. The framework organizes insight; it does not create
+> it, so treat these as a hypothesis to test against real buyers.
+
+## The ladder
+
+Laddering: climb from what the product *is* to what it *means* for this buyer.
+
+| Rung | |
+|---|---|
+| **1. Feature** | Operates against your written policy, with session-level auditability |
+| **2. Functional benefit** | HR work gets done with a record of how it was done |
+| **3. Business outcome** | Capacity added without adding liability |
+| **4. What it means for them** | You can say yes to AI without it becoming your risk to carry |
+
+**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
+common failure in B2B copy, and it is structurally fine — it just argues at the
+wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
+conversation lives.
+
+**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
+personal exposure back to them reads as manipulative and costs you the room.
+Use it to decide what to lead with, not as a line in the asset.
+
 ## The one thing to get right
 
 Two of the four capabilities in the HR plugin — **performance review** and
