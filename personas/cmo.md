@@ -23,10 +23,15 @@ sourcing: public-research
 
 ## The thing that makes this buyer different from the CFO
 
-**They have already bought AI.** 96% of marketers use it, 80% for content, and
-15.3% of the average marketing budget already goes to AI initiatives. The sale is
-not "try AI." The sale is *"the AI you already bought didn't move the number, and
-here is why this is a different category of thing."*
+**They have already bought AI.** 15.3% of the average marketing budget already
+goes to AI initiatives, and adoption across marketing teams is close to
+universal. The sale is not "try AI." The sale is *"the AI you already bought
+didn't move the number, and here is why this is a different category of thing."*
+
+> Budget figure: [Gartner 2026 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities) · tier 2.
+> The adoption claim is stated directionally on purpose — the widely repeated
+> percentages trace only to aggregated write-ups, so the shape is reliable and
+> the decimal places are not.
 
 Every asset for this persona has to survive that opening position. A capability
 pitch reads as the fourth vendor this quarter making the same promise.
@@ -50,10 +55,11 @@ pitch reads as the fourth vendor this quarter making the same promise.
    a faster drafter, it walks straight into a failure they have already lived.
    > Source: [Timothy Young, LinkedIn, 2026](https://www.linkedin.com/posts/timhyoung_i-talk-with-enterprise-cmos-and-marketing-activity-7491248391998484480-NRRv/) · confidence: practitioner opinion (synthesized from many CMO conversations; still n=1)
 
-4. **Unmeasurable outcome.** 83% of marketing leaders prioritize demonstrating
-   ROI; only 36% can accurately measure it. Only 19% of content marketers track
-   any AI-specific KPI. A tool that cannot be attributed becomes the first thing
-   cut.
+4. **Unmeasurable outcome.** Marketing leaders overwhelmingly prioritize
+   demonstrating ROI, while only around a third report being able to measure it
+   accurately — and AI-specific KPI tracking is rarer still. A tool that cannot
+   be attributed becomes the first thing cut.
+   > Source: [ABM Alliance, CMO AI challenges 2026](https://abmalliance.com/news/cmo-and-ai-marketing-challenges-2026) · tier 3 — aggregated. Ratio is reliable; exact percentages trace to secondary write-ups, so state it directionally.
 
 ## Personal exposure — read this before writing anything
 
@@ -65,6 +71,9 @@ This buyer is materially more exposed than the CFO, and it changes the tone.
 - **62%** say missing 2026 growth expectations results in budget cuts.
 - **70%** say becoming an AI leader is a critical 2026 goal, while only **30%**
   report mature AI readiness.
+
+> Sources: tenure and pressure figures — [CMSWire, CMO survival guide 2026](https://www.cmswire.com/digital-marketing/why-the-cmo-job-is-being-rewritten-in-real-time-and-how-to-land-on-the-right-side/) · tier 2.
+> AI-leadership and readiness figures — [Gartner 2026 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities) · tier 2.
 
 They are being asked to lead on AI, judged on it, and are not resourced for it.
 That gap is the emotional center of this persona. An asset that helps them look
@@ -130,7 +139,8 @@ the workflow, not bolted on after.**
    matters at all: access to AI is no longer an advantage because everyone has
    it; the advantage is the operating model. That is `vp-configured` restated in
    the buyer's own terms. 57% say they lack the talent to execute their 2026 strategy and 56%
-   say they lack the budget. They cannot hire maturity. Configuration is the
+   say they lack the budget. ([Gartner 2026 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities) · tier 2)
+   They cannot hire maturity. Configuration is the
    substitute — plugins carry the process knowledge their team doesn't yet have.
 3. **`vp-coverage`** — last in a departmental motion. That every knowledge worker
    gets Cowork is irrelevant to someone buying for their own function, and
@@ -191,7 +201,7 @@ CMO can actually carry upward, and rules out the metric most AI tools lead with.
 A named deliverable their team currently pays for or can't get to, produced
 end-to-end, with an attribution story their CFO will accept. Note the second
 half: this buyer is increasingly selling *upward* even in a departmental motion,
-because CFO pressure on marketing rose 52%.
+because CFO pressure on marketing rose 52% ([CMSWire, CMO survival guide 2026](https://www.cmswire.com/digital-marketing/why-the-cmo-job-is-being-rewritten-in-real-time-and-how-to-land-on-the-right-side/) · tier 2).
 
 > TODO(source): no `pricing/` content. Less blocking than for the CFO — a
 > departmental buy clears at a lower threshold — but still unanswerable.

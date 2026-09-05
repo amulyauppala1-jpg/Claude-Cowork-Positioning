@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-09-05 (sourcing audit)
+- `scripts/check-sources.py` — fails on any numeric claim without a citation nearby. Found 9 uncited blocks across the three personas on first run.
+- Source hierarchy encoded: Anthropic first-party > independent named research > aggregated secondary > practitioner. Community-contributed skills are explicitly not first-party evidence.
+- Unverifiable figures are now deleted rather than parked behind a warning label — the number survives the label. Removed one such figure; hedged several tier-3 statistics to directional claims.
+
+## 2026-09-05 (CRO)
+- `personas/cro.md` — CRO. Opening position is adoption, not capability or measurement: only 19% of reps use AI features they already have. Leads `vp-configured`, completing a three-way split (CFO leads `vp-coverage`, CMO `vp-executes`, CRO `vp-configured`).
+- `products/cowork-enterprise.md` — added sales plugin detail, including that it runs standalone without connectors.
+
 ## 2026-09-05 (first-party function messaging)
 - `products/cowork-enterprise.md` — added the shipped plugin roster (11 plugins, marketing and finance command lists) and a first-party proof point: Anthropic's own marketing ops team, weekly metrics review cut from 1-2 days to ~2 hours (blog 2026-07-08, 59 days old).
 - `personas/cmo.md` — brand-risk objection now answered with `/brand-review` and the audit-agent + human-approval structure rather than reassurance. `/competitive-brief` largely answers "do I have to build that?".

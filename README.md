@@ -10,6 +10,7 @@ products/cowork-enterprise.md                    Enterprise positioning, with so
 personas/                                        Per-role framing; references product props by slug
 refresh-tasks.md                                 Scheduled-task prompts for keeping the above current
 scripts/check-refs.py                            Verifies persona -> product references resolve
+scripts/check-sources.py                         Fails on any numeric claim without a nearby citation
 ```
 
 Deliberately minimal: one product file, one skill, and a growing `personas/` folder. No `pillars/`, `pricing/`, or `segments/` yet — the skill checks what actually exists rather than assuming a fixed structure.
@@ -18,7 +19,12 @@ Deliberately minimal: one product file, one skill, and a growing `personas/` fol
 
 A persona's role is a property of the **deal shape**, not the person — the same CMO is the economic buyer for a departmental purchase and a champion in an enterprise rollout. Personas declare `roles_by_motion`, and the motion changes the value-prop ranking, sometimes inverting it.
 
-Run `python3 scripts/check-refs.py` before committing: it fails if a persona references a value prop slug that doesn't exist, so the link to the source of truth can't silently rot.
+Run both checkers before committing:
+
+- `scripts/check-refs.py` fails if a persona references a value prop slug that doesn't exist, so the link to the source of truth can't silently rot.
+- `scripts/check-sources.py` fails on any figure that has no citation nearby. A number without a traceable source reads as established, gets lifted into an asset, and can't be defended.
+
+Sources are ranked: Anthropic's own published data first, then independent named research, then aggregated secondary write-ups, then individual practitioner accounts. Where only a weak tier is available, claims are stated directionally without a number — the direction is reliable, the decimal places aren't. An unverifiable figure is deleted outright, never parked behind a "do not use" label.
 
 Content that hasn't been gathered is marked `TODO(source)`, and stand-in content for connectors that aren't attached is marked `SYNTHETIC`. The skill treats both as missing rather than filling the gap.
 

@@ -48,6 +48,7 @@ governing AI spend as a portfolio rather than approving it case by case.
    duplicate subscriptions now cost roughly 3x what they did in 2024 because each
    one stacks an AI surcharge on the base fee. A CFO who files Cowork next to
    Copilot and ChatGPT Enterprise has already decided.
+   > Source: [Coommit duplicate-SaaS benchmark 2026](https://coommit.com/blog/duplicate-saas-subscriptions-2026-benchmark) · tier 2
 2. **No attributable financial outcome.** Fewer than a third of decision-makers
    can point to a specific financial result from their AI investments. The ask
    isn't "will this help" — it's "what number moves, and when."
@@ -93,6 +94,11 @@ not shipping.
 is overhead, and claiming otherwise will not survive a finance review. Qualify
 before reaching for it.
 
+> The two figures above are stated directionally: they recur across 2026 CFO
+> coverage but trace to aggregated write-ups rather than one primary survey.
+> Direction reliable, precision not. `TODO(source)`: pin to a primary survey
+> before quoting a number externally.
+
 > Source: analysis, not sourced research · confidence: `analysis`
 > Prompted by the COGS-vs-R&D framing attributed to Anthropic CFO Krishna Rao in
 > secondary commentary. **That attribution could not be verified** — it does not
@@ -108,8 +114,8 @@ before reaching for it.
 
 ## Measured on
 Opex predictability and run-rate. Forecast accuracy. Margin. Increasingly,
-pricing power — 86% of finance chiefs plan to increase emphasis on pricing in
-2026. Note the posture: cost discipline is *surgical*, not across-the-board —
+pricing power — a large majority of finance chiefs report planning to increase
+emphasis on pricing in 2026. Note the posture: cost discipline is *surgical*, not across-the-board —
 trimming corporate IT, HR and marketing while protecting spend that
 differentiates. Cowork must be argued into the second bucket.
 
@@ -154,8 +160,9 @@ motion (see below).
    leading — it only matters once they've stopped seeing a duplicate.
 3. **`vp-executes`** — weakest here, and deliberately last. It's true, but it's
    the claim every AI vendor has made to this person for three years, and the
-   confidence gap is documented: 39% of CFOs prioritize accelerating AI in
-   finance while only 36% feel confident of real enterprise impact. Leading with
+   confidence gap is well documented — CFOs prioritize accelerating AI in finance
+   at markedly higher rates than they report confidence in delivering real
+   enterprise impact from it. Leading with
    capability spends credibility rather than building it. *Do not promote this
    without a customer-specific number attached.*
 

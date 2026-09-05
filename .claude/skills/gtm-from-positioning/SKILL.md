@@ -73,6 +73,25 @@ Treat both exactly like a missing proof point: never render them into an asset,
 and tell the user which section was unavailable and why. `SYNTHETIC` content must
 never reach customer-facing output under any circumstances.
 
+**Prefer first-party evidence.** When writing about Cowork, Anthropic's own
+published data outranks everything else -- it is both more relevant and more
+defensible than third-party research about the category. Order of preference:
+
+1. Anthropic / Claude published data (blog, docs, plugin directory)
+2. Independent named research (an analyst firm or a vendor's own primary survey)
+3. Aggregated secondary write-ups (a blog restating other people's numbers)
+4. Individual practitioner accounts
+
+Reach down the list only for what the tier above doesn't cover, and say which
+tier a figure came from. A community-contributed skill or template is **not**
+first-party evidence -- it shows what someone built, not what the product ships.
+
+**Never write down an unverified number, even to warn against it.** If a figure
+cannot be traced to a dated, citable source, delete it. Do not park it behind a
+"do not use" label -- the number stays in the file, and the next person to skim
+it will lift the figure and miss the caveat. Record the open *question* instead
+("adoption rate worth sourcing"), never the unsourced value.
+
 **Single sources inform a point of view; they do not establish a claim.** A
 `primary source` or `practitioner opinion` entry is n=1 -- one person's
 experience, however well-informed. It can corroborate, sharpen, or add
