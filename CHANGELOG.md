@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-05 (corrections)
+- Removed an unverified competitor claim about attorney-client privilege from `personas/general-counsel.md` and `products/`, along with unaudited competitor benchmark figures. Recording them even as open questions propagates them. The privilege *question* remains, as an escalation to counsel.
+- Recalibrated the legal adoption finding: it is an existence proof that legal can lead adoption, not a profile of any given legal team. Using it to imply a cautious GC is behind reads as pressure, and caution is the correct posture for the role.
+- Skill: two new rules covering both.
+
 ## 2026-09-05 (CHRO + General Counsel — persona set complete)
 - `personas/chro.md` — the HR plugin's two headline capabilities (performance review, compensation analysis) sit in HR's two most legally exposed domains. Lead with onboarding and policy guidance instead; this inverts the instinct used for every other persona.
 - `personas/general-counsel.md` — **corrects the gatekeeper assumption.** First-party evidence: legal became the number-one power-user function in Cowork at 3x any other. The GC is the leading function, not the reluctant one. File serves two readers — legal as buyer, legal as blocker.

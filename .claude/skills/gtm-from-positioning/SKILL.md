@@ -86,11 +86,23 @@ Reach down the list only for what the tier above doesn't cover, and say which
 tier a figure came from. A community-contributed skill or template is **not**
 first-party evidence -- it shows what someone built, not what the product ships.
 
+**Don't propagate a competitor's factual claims.** Marketing from a competing
+vendor is not a source. Its benchmark figures are unaudited self-comparisons, and
+its assertions about our product come from a party with an interest in them being
+true. Recording such a claim even as an open question puts it in front of every
+future reader -- leave it out. Reference competitor *framing* generically where
+useful (the argument they make), never their figures or factual assertions.
+
 **Never write down an unverified number, even to warn against it.** If a figure
 cannot be traced to a dated, citable source, delete it. Do not park it behind a
 "do not use" label -- the number stays in the file, and the next person to skim
 it will lift the figure and miss the caveat. Record the open *question* instead
 ("adoption rate worth sourcing"), never the unsourced value.
+
+**Adoption data is an existence proof, not a profile.** Evidence that a function
+or role commonly behaves some way shows what is possible; it never describes the
+person in the room. Never use an adoption statistic to imply a buyer is behind
+their peers -- caution is a legitimate posture, and the pressure reads badly.
 
 **Single sources inform a point of view; they do not establish a claim.** A
 `primary source` or `practitioner opinion` entry is n=1 -- one person's

@@ -23,10 +23,10 @@ sourcing: public-research
 >
 > Establish which one you're writing for before you start.
 
-## Correcting the obvious assumption
+## The GC is not only a gatekeeper
 
-The intuitive model is that the GC is a gatekeeper who never buys. **That is
-wrong, and the evidence is first-party and unambiguous.**
+The intuitive model is that the GC gates purchases and never makes them. The
+buying half of that is wrong.
 
 Following the February legal plugin launch, Anthropic's Associate General
 Counsel reports that **legal became the number-one power-user job function in
@@ -38,13 +38,25 @@ are no longer asking whether to use AI, but how.
 >
 > 116 days old as of 2026-09-05, past the 90-day ceiling. Flag on use.
 
-This is the most striking finding in this repo. **Legal is not the reluctant
-function — it is the leading one.** Treating a GC as an obstacle to be managed
-misreads the room and wastes the strongest adoption signal available.
+**Read this as an existence proof, not a profile.** It shows that legal *can* be
+a leading adopter — which is genuinely useful, because the assumption in the room
+usually runs the other way. It does **not** mean the GC in front of you is
+enthusiastic, and it is not a benchmark to measure them against.
 
-Why it makes sense: legal work is document comprehension at volume — tracking
-defined terms across exhibits and schedules — which is precisely the shape of
-work that rewards this product.
+Note also what population it describes: usage within Claude Cowork as reported by
+Anthropic. That is a self-selected group of organizations already using the
+product. It says legal adoption happens and can lead; it does not describe legal
+functions generally.
+
+**Two failure modes, and the second is the one to watch.** Treating a GC as an
+obstacle wastes a real signal. But arriving with "legal is usually our biggest
+adopter" and finding a cautious GC is worse — it reads as pressure, and caution
+is the correct professional posture for the role. Use this to open a door, never
+to imply someone is behind.
+
+Why the adoption makes sense where it happens: legal work is document
+comprehension at volume — tracking defined terms across exhibits and schedules —
+which is the shape of work that rewards this product.
 
 ## What already ships for this function
 
@@ -100,36 +112,26 @@ citation faithfulness · defensibility · retention · work product · matter.
 
 ## Objections
 
-**"Do exchanges with Claude carry attorney-client privilege?"**
-> ⚠️ **The highest-stakes question in this file, and this repo cannot currently
-> answer it.**
->
-> A competitor's published comparison asserts that a 2026 federal ruling found
-> Claude exchanges lack attorney–client privilege protection.
-> [LegalOnTech, 15 Jun 2026](https://www.legalontech.com/post/claude-for-legal) —
-> **tier 4 for this purpose: a competing legal-AI vendor writing about us.**
->
-> **Do not repeat this claim, and do not dismiss it.** It is a specific factual
-> assertion about a court ruling, sourced from a party with an interest in it
-> being true, and unverified here.
->
-> `TODO(source)` — **highest priority in this repo.** Verify against the primary
-> record. If substantiated, it belongs in `products/cowork-enterprise.md` with a
-> proper answer attached, because a GC will ask and an unprepared response is
-> worse than a difficult one. Escalate to counsel rather than improvising.
+**"What is the privilege posture for work done here?"**
+> A standard question from this desk, and this repo has no content on it.
+> **Escalate to counsel — do not improvise an answer.** Privilege turns on
+> facts and jurisdiction, and a confident guess from a seller is worse than
+> "I'll get you a proper answer."
+> `TODO(source)`: the repo needs a reviewed position on privilege and work
+> product, written or approved by counsel. Until then this is an escalation,
+> not an objection to handle.
 
 **"How does this perform against purpose-built legal AI?"**
-> The same competitor reports completing reviews ~17x faster and being favoured
-> ~1.8x on accuracy in their own evaluation.
-> Source: LegalOnTech, as above · **tier 4 — vendor self-comparison, unaudited,
-> published by the winner.** Treat as a claim to be aware of, not a fact.
-> `TODO(source)`: independent benchmark comparison. The repo has BigLaw Bench
-> (vendor-reported) and nothing neutral.
+> Purpose-built legal AI vendors publish comparisons favouring themselves. Expect
+> them to come up; they are unaudited self-comparisons and this repo has no
+> neutral benchmark to answer with.
+> The repo has BigLaw Bench (vendor-reported, ours) and nothing independent.
+> `TODO(source)`: an independent comparison. Until then, compete on the playbook
+> and workflow-fit argument below rather than on benchmark numbers.
 
 **"Doesn't this need heavy configuration to be useful?"**
-> The same source criticizes a dependency on detailed "cold-start" interviews
-> calibrating playbooks, escalation chains and risk thresholds, arguing generic
-> defaults underperform.
+> Competing vendors frame the dependency on detailed "cold-start" playbook,
+> escalation and risk-threshold setup as a weakness.
 > **This critique is our value proposition.** They are describing `vp-configured`
 > as a cost; to a GC who has watched generic tools produce unusable output, it
 > reads as the reason it works. Concede the setup cost and reframe: the playbook
@@ -149,11 +151,11 @@ retained; whether content trains a model; what the audit trail looks like;
 whether outputs touch regulated decisions (hiring, pay, credit); and who is
 liable when it's wrong.
 
-**How to prepare a champion.** Give them the Compliance API proof point, the
-product's own human-review framing, and an honest note on the privilege question
-above. **A champion ambushed by the privilege question in a review meeting loses
-the deal outright** — arming them with "here's the open question and here's who
-to ask" survives contact; discovering it live does not.
+**How to prepare a champion.** Give them the Compliance API proof point and the
+product's own human-review framing. Tell them plainly that privilege questions
+route to counsel rather than being answered in the meeting. **A champion who
+improvises an answer to a legal question does more damage than one who says
+"I'll get you that"** — the second is normal, the first is disqualifying.
 
 **Cross-reference:** the CHRO file escalates AI Act classification here. The two
 personas are tightly coupled — HR use cases are named high-risk categories, so a
@@ -181,15 +183,15 @@ privilege — the third of which this repo does not yet have.
 
 Confidence tiers as defined in `cfo.md`; hierarchy in the skill.
 
-**Read the tier labels carefully in this file.** It mixes tier 1 first-party
-material (the Pike interview, the plugin documentation) with **tier 4
-competitor content** (LegalOnTech, a competing legal-AI vendor). The competitor
-material is included because it raises the privilege question, which is too
-important to omit merely because of who raised it — but every claim from it is
-marked, and none should be repeated as fact without independent verification.
+Sources here are tier 1 first-party (the Pike interview, the plugin
+documentation). Competitor marketing from a rival legal-AI vendor was reviewed
+and **deliberately not used**: its specific factual and benchmark assertions
+were unverified and published by an interested party, and recording them even as
+open questions would propagate them. Where competitor framing is referenced above
+it is described generically, with no figures and no claims restated.
 
 A community tutorial for the legal plugin was also reviewed; it self-identifies
 as unofficial and unaffiliated, so it is not used as a source for what ships.
 
-**Highest-value addition:** a verified answer on privilege. Nothing else in this
-repo is close in importance for this persona.
+**Highest-value addition:** a counsel-reviewed position on privilege and work
+product. It is the one question this desk asks that the repo cannot answer.
