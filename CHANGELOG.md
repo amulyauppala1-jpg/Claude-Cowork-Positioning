@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-05 (CMO + sourcing rules)
+- `personas/cmo.md` — CMO. Value-prop ranking is close to the inverse of the CFO's, which is the motion model doing real work.
+- Skill rule: single sources inform a point of view, they do not establish a claim. An n=1 entry can corroborate or supply vocabulary, never solely support a value-prop ranking. Applied retroactively to the CFO file.
+- Snowflake GTM programme added to the CMO as an illustration of what `vp-configured` produces, explicitly marked not a proof point.
+
 ## 2026-09-05 (personas)
 - `personas/cmo.md` — CMO, sourced from 2026 Gartner CMO Spend Survey and trade research. Value-prop ranking is close to the inverse of the CFO's.
 - `roles_by_motion` replaces fixed `role_in_deal`: a persona's role is a property of the deal shape, not the person. Departmental vs. enterprise motion changes the value-prop ranking.

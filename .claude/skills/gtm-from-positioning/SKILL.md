@@ -73,6 +73,13 @@ Treat both exactly like a missing proof point: never render them into an asset,
 and tell the user which section was unavailable and why. `SYNTHETIC` content must
 never reach customer-facing output under any circumstances.
 
+**Single sources inform a point of view; they do not establish a claim.** A
+`primary source` or `practitioner opinion` entry is n=1 -- one person's
+experience, however well-informed. It can corroborate, sharpen, or add
+vocabulary. It must never be the sole support for a load-bearing claim such as a
+value-prop ranking. If the only evidence for a lead is one person saying so, mark
+it as the repo's POV rather than presenting it as established.
+
 Sourced content additionally carries a `confidence:` tier. `analysis` means the
 reasoning is the repo's own with no external source behind it -- usable to shape
 an internal draft, never presentable as evidence. `public research` can

@@ -42,7 +42,15 @@ pitch reads as the fourth vendor this quarter making the same promise.
    language and enterprise procurement checklists. Anything that reads as
    "generate more content faster" activates this. It is the fastest way to lose
    a CMO who otherwise wanted to say yes.
-3. **Unmeasurable outcome.** 83% of marketing leaders prioritize demonstrating
+3. **The review-cycle trap.** The most precise statement of the failure mode:
+   teams end up producing more mediocre work faster, and burning the saved time
+   on review. Generation accelerated; approval didn't. **This is the mechanism
+   behind why `vp-executes` leads** — a tool that produces more drafts moves work
+   from creation into review rather than removing it. If Cowork is positioned as
+   a faster drafter, it walks straight into a failure they have already lived.
+   > Source: [Timothy Young, LinkedIn, 2026](https://www.linkedin.com/posts/timhyoung_i-talk-with-enterprise-cmos-and-marketing-activity-7491248391998484480-NRRv/) · confidence: practitioner opinion (synthesized from many CMO conversations; still n=1)
+
+4. **Unmeasurable outcome.** 83% of marketing leaders prioritize demonstrating
    ROI; only 36% can accurately measure it. Only 19% of content marketers track
    any AI-specific KPI. A tool that cannot be attributed becomes the first thing
    cut.
@@ -62,8 +70,16 @@ They are being asked to lead on AI, judged on it, and are not resourced for it.
 That gap is the emotional center of this persona. An asset that helps them look
 credible to their board is doing more work than one that explains a feature.
 
-> Do not exploit this. Fear-based framing reads as manipulative to a
-> sophisticated buyer and will backfire. The use is knowing what they're
+> **Two limits on this section.**
+>
+> *Epistemic:* these are aggregate survey figures, not one person's account —
+> but they describe a population, not the buyer in front of you. Plenty of CMOs
+> are secure, well-resourced, and three years into a mandate. Treat this as
+> shaping the repo's point of view on the role, not as a profile of any
+> individual. Read the room before assuming any of it applies.
+>
+> *Tactical:* don't use it as leverage. Fear framing reads as manipulative to a
+> sophisticated buyer and will backfire. The use is knowing what they may be
 > carrying, not naming it back at them.
 
 ## Value props, ranked for this buyer
@@ -79,7 +95,10 @@ credible to their board is doing more work than one that explains a feature.
    the entire sale here, and it should be concrete: name the deliverable, not
    the capability.
 2. **`vp-configured`** — strong second, and it answers the readiness gap
-   directly. 57% say they lack the talent to execute their 2026 strategy and 56%
+   directly. Young's framing is the cleanest articulation of why this prop
+   matters at all: access to AI is no longer an advantage because everyone has
+   it; the advantage is the operating model. That is `vp-configured` restated in
+   the buyer's own terms. 57% say they lack the talent to execute their 2026 strategy and 56%
    say they lack the budget. They cannot hire maturity. Configuration is the
    substitute — plugins carry the process knowledge their team doesn't yet have.
 3. **`vp-coverage`** — last in a departmental motion. That every knowledge worker
@@ -92,6 +111,12 @@ credible to their board is doing more work than one that explains a feature.
 **Use:** pipeline · attribution · brand safety · governance · capacity ·
 finished work · review cycle. Anchor claims to something measurable — this
 buyer's core wound is spending they can't attribute.
+
+**Two metrics specifically.** Boards are reported to want *agency-spend
+reduction* and *pipeline influence*; **time-saved does not persuade them.** This
+is the sharpest vocabulary guidance in this file — it names the two numbers a
+CMO can actually carry upward, and rules out the metric most AI tools lead with.
+(Source: [Timothy Young, LinkedIn, 2026](https://www.linkedin.com/posts/timhyoung_i-talk-with-enterprise-cmos-and-marketing-activity-7491248391998484480-NRRv/) · practitioner opinion)
 
 **Avoid:**
 - **"Content at scale" / "10x your content."** The single worst framing
@@ -148,6 +173,54 @@ because CFO pressure on marketing rose 52%.
 - **Agency partners** — threatened by the purchase. Handle deliberately.
 
 > TODO(source): committee shape inferred, not observed. Confirm against win/loss.
+
+## What `vp-configured` actually looks like — the Snowflake reference
+
+`vp-configured` is the hardest prop to make concrete. "An agent that knows how
+your company works" is abstract until someone sees one. Snowflake's GTM
+programme is the clearest public picture of the finished thing, and it maps to
+this buyer's two problems almost exactly.
+
+**Campaign agent — answers the attribution wound.** Real-time ROI by campaign,
+automatically reallocating digital ad spend across channels. This is the direct
+answer to the objection at the top of this file: the CMO who cannot say what
+their AI spend returned is describing the absence of exactly this.
+
+**Competitive intelligence agent — answers the combinatorial problem.** Instant
+talking points customized to a specific competitor, use case, and industry.
+The reason this matters is arithmetic: enablement coverage is competitors ×
+use cases × industries, which is a *product*, not a sum. Twelve competitors
+across eight use cases and six industries is 576 combinations. No enablement
+team staffs against that, so in practice reps improvise and the positioning in
+`products/cowork-enterprise.md` never survives contact with the deal. An agent
+trained on the real material closes that gap at scale.
+
+Note what both examples have in common: they are trained on **live operating
+data** — campaign performance, competitive material, customer context — not on
+general knowledge. That is the substance behind `vp-configured`, and it is why
+the prop is second rather than third for this buyer despite sounding like an
+IT concern.
+
+**Use this to show a CMO the destination**, especially one who has only ever
+seen chat assistants. It reframes the category from "writes things faster" to
+"operates on our data" — which is the same reframe `vp-executes` needs.
+
+**The buyer's next question is "do I have to build that?"** Snowflake did, with
+an executive mandate and an internal AI council on 20% time. That is the honest
+gap, and `vp-configured` is the answer to it: plugins are the claim that you
+reach this without standing up an internal programme. Expect technically
+confident enterprises to consider building anyway.
+
+> Source: [Jason Lemkin, LinkedIn, 29 Oct 2025](https://www.linkedin.com/pulse/snowflakes-ai-revolution-how-transformed-marketing-sales-lemkin-n8ltf/) · confidence: practitioner opinion
+>
+> **Not a proof point.** A third party's account of another company's internal
+> build — not a Cowork customer outcome, and never to be presented as one. At
+> ~10 months it is also well past the 90-day ceiling governing proof points in
+> `products/cowork-enterprise.md`. Use it to illustrate the category and shape a
+> point of view; cite the product file's own proof points as evidence.
+>
+> Cross-reference: the competitive-intelligence example belongs in the CRO
+> persona too — marketing builds it, sales carries it.
 
 ---
 

@@ -68,8 +68,12 @@ from one of three places, and they behave completely differently:
 **Confirmed by a sitting CFO on the record.** Pothier describes renegotiating
 existing software contracts specifically, in his words, to "go fund my AI
 investment" — the money is being moved, not created. This is the consolidation
-thesis stated by a buyer rather than inferred from spend data, and it's the
-single strongest support for leading with `vp-coverage`.
+thesis stated by a buyer rather than inferred from spend data.
+>
+> **Corroboration, not foundation.** The `vp-coverage` lead rests on the
+> duplicate-SaaS benchmark data above; one CFO describing his own behaviour
+> sharpens it and supplies the vocabulary, but n=1 cannot carry a ranking on its
+> own. If the benchmark data were withdrawn, this quote would not replace it.
 > Source: [Gordon Pothier, CFO of Board, Bloomberg Businessweek Daily, Aug 2026](https://www.youtube.com/watch?v=jQ3DKTDMFx4) · confidence: primary source (named, on record, n=1)
 
 ### Which category, not just which budget
