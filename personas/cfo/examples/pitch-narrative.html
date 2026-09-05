@@ -25,6 +25,19 @@
           color:var(--clay); line-height:1; margin:0 0 18px; }
   cite { font-size:.82rem; font-style:normal; color:var(--muted); display:block; margin-top:22px; }
   .foot { padding:44px 7vw 60px; font-size:.78rem; color:var(--muted); }
+
+  /* One slide per page. Screen uses viewport units; print can't, so the
+     slide height is released and a hard break placed after each. */
+  @page { size: 1280px 720px; margin: 0; }
+  @media print {
+    body { background:var(--ivory); }
+    .slide { min-height:0; height:720px; break-after:page; page-break-after:always;
+             border-bottom:none; padding:9% 8%; }
+    .slide:last-of-type { break-after:auto; page-break-after:auto; }
+    .foot { break-before:page; page-break-before:always; padding:9% 8%; }
+    h2 { font-size:2.6rem; } p { font-size:1.15rem; }
+    .stat { font-size:4rem; }
+  }
 </style>
 
 <section class="slide">
