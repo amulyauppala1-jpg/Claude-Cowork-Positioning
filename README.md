@@ -130,6 +130,36 @@ so the link to the foundation can't silently rot. `check-sources` fails on any
 figure without a citation nearby — a number with no traceable source reads as
 established, gets lifted into an asset, and can't be defended.
 
+## Assumptions
+
+**The repo is readable by everyone at the company.** Public, or org-visible with
+read access granted broadly. That assumption is what makes the second source in
+every skill's Step 1 work: a direct fetch of
+`raw.githubusercontent.com/.../main/<path>` needs no connector, no account and
+no clone, while still reading the current file. It is the only configuration
+that delivers *live* and *zero-setup* at the same time.
+
+**This repo is private today**, so that path doesn't resolve yet — which is
+useful, because it exercises the fallback. Skills drop to the local folder if
+one is open, then to the snapshot embedded in the bundle, and say which they
+used. Nothing breaks; the output just tells you it may be dated.
+
+The order is deliberate — most current first, always available last:
+
+| Source | Live | Setup | When it applies |
+|---|---|---|---|
+| GitHub connector | Yes | Connect once, org-wide | Enterprise default |
+| **Direct raw fetch** | **Yes** | **None** | **Repo readable — the assumption above** |
+| Local folder | As of last pull | Clone | Maintainers |
+| Embedded snapshot | No — dated | None | Floor. Always works |
+
+**Two things follow from this, and both are design decisions rather than
+accidents.** The skill *instructions* are stable and the *positioning* is what
+goes stale, so instructions can safely ship embedded while content resolves
+live. And a skill that silently used a six-month-old snapshot would be worse
+than one that failed, so every skill reports its source and flags a stale
+fallback.
+
 ## How sources are weighted
 
 1. Anthropic / Claude published data

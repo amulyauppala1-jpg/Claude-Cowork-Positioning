@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-05 (source resolution)
+- Every skill now resolves its source live-first: GitHub connector, then a direct raw fetch (live and zero-setup if the repo is readable), then the local folder, then the embedded snapshot. Stops at the first that works and reports which it used.
+- `scripts/build-bundle.py` packages the whole system as one uploadable `.zip` for Settings > Skills. The embedded copy is the floor, not the goal.
+- README documents the assumption the design rests on — a company-readable repo — and what happens when it doesn't hold.
+
 ## 2026-09-05 (request shapes)
 - `deal-prep` — the sales-shaped request. "I have a CFO meeting Thursday" wants readiness, not an asset: lead line, what not to say, documented objections with answers, proof to bring, and what you cannot answer. Explicitly not customer-facing.
 - `campaign-kit` — the marketing-shaped request. Fixes one spine (lead argument, proof point, core phrase, CTA) before writing, then delegates each format to its own skill, then checks the set against itself. Three asset skills run separately produce three assets that disagree.
