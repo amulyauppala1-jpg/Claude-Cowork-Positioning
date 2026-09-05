@@ -15,7 +15,7 @@ if not defined:
     sys.exit("FAIL: no {#vp-*} slugs defined in products/ — did a heading lose its slug?")
 
 errors = []
-for f in sorted(glob.glob("personas/*.md")):
+for f in sorted(glob.glob("personas/*/README.md") + glob.glob("personas/_*.md")):
     body = open(f).read()
     used = {s for s in re.findall(r"\b(vp-[a-z-]+)\b", body) if not s.endswith("-")}
     for missing in sorted(used - defined):
@@ -23,7 +23,8 @@ for f in sorted(glob.glob("personas/*.md")):
     # a persona that cites the product folder should name the file
     if re.search(r"`products/`", body) and not os.path.basename(f).startswith("_"):
         errors.append(f"{f}: cites `products/` without naming the file")
-    print(f"  {os.path.basename(f):28} {len(used)} slug refs")
+    label = "/".join(f.split("/")[-2:])
+    print(f"  {label:28} {len(used)} slug refs")
 
 print()
 if errors:

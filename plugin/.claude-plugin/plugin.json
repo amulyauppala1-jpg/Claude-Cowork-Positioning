@@ -1,0 +1,8 @@
+{
+  "name": "cowork-positioning",
+  "version": "0.1.0",
+  "description": "Build GTM assets for Cowork grounded in the Claude-Cowork-Positioning repo. Reads positioning, persona and brand files live from GitHub so output can't drift from what's approved, and refuses to invent proof points.",
+  "author": {
+    "name": "Amulya Uppala"
+  }
+}

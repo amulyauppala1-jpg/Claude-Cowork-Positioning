@@ -23,7 +23,7 @@ SOURCE = re.compile(
 HEDGED = re.compile(r"trace only to|directionally|without numbers deliberately|don't quote|do not quote", re.I)
 
 flagged = []
-for f in sorted(glob.glob("personas/*.md")) + sorted(glob.glob("products/*.md")):
+for f in sorted(glob.glob("personas/*/README.md") + glob.glob("personas/_*.md")) + sorted(glob.glob("products/*.md")):
     blocks = open(f).read().split("\n\n")
     for i, b in enumerate(blocks):
         if not FIGURE.search(NOISE.sub("", b)):

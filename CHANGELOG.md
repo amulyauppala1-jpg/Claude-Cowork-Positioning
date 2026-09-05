@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-05 (system layer)
+- `brand/README.md` — voice and tone derived from Anthropic's seven published values, plus the visual system. Colors extracted from the official media kit SVGs (Clay `#D97757`, Ivory `#FAF9F5`, Slate `#141413`); logos included. Typography left unsourced and marked, since the kit ships no font files or written guideline.
+- Root `README.md` rewritten as an agent entry point: routing, precedence, non-negotiables.
+- Personas restructured into per-persona folders (`personas/cfo/README.md` + `assets/`) so generated work lives beside the definition that produced it. Checkers updated to follow.
+- `plugin/` — installable Cowork plugin with three asset skills (`landing-section`, `pitch-narrative`, `ad-and-email`). Reads the repo live via the GitHub connector rather than bundling a copy, since a bundled copy is stale the moment a persona file changes.
+
 ## 2026-09-05 (corrections)
 - Removed an unverified competitor claim about attorney-client privilege from `personas/general-counsel.md` and `products/`, along with unaudited competitor benchmark figures. Recording them even as open questions propagates them. The privilege *question* remains, as an escalation to counsel.
 - Recalibrated the legal adoption finding: it is an existence proof that legal can lead adoption, not a profile of any given legal team. Using it to imply a cautious GC is behind reads as pressure, and caution is the correct posture for the role.
