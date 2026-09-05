@@ -30,7 +30,7 @@ personas/
   _TEMPLATE.md                   Start here for a new persona
 brand/README.md                  Voice, tone, colors, logos
 plugin/                          Installable Cowork plugin — 9 asset skills + the tester
-.claude/skills/                  Project skill — auto-loads in Claude Code
+.claude/skills/                  Same skills, auto-loaded on clone — kept in sync by script
 scripts/                         Integrity checks — run before committing
 refresh-tasks.md                 Scheduled tasks to keep the foundation current
 ```
@@ -75,16 +75,31 @@ Full rules: `.claude/skills/gtm-from-positioning/SKILL.md`.
 
 ## Using it
 
-**Cowork / Claude Code** (marketers and sales — no clone needed):
+**Clone and open it** — works today, no install step:
+
+```bash
+git clone https://github.com/amulyauppala1-jpg/Claude-Cowork-Positioning.git
+cd Claude-Cowork-Positioning && claude
+```
+
+The skills in `.claude/skills/` load automatically for anyone in the repo. This
+is the path to use.
+
+**Install as a plugin** — for people who shouldn't have to clone anything:
 
 ```
 /plugin marketplace add amulyauppala1-jpg/Claude-Cowork-Positioning
 /plugin install cowork-positioning@cowork-positioning
 ```
 
-Then connect the GitHub connector and grant access to this repo — the skills
-read it at generation time. Skills appear namespaced, e.g.
-`/cowork-positioning:landing-page`. See `plugin/README.md`.
+Then connect the GitHub connector and grant access to this repo, since the
+skills read it at generation time.
+
+> **Note:** on a machine with managed plugin settings, adding a personal
+> marketplace can be blocked by policy — the allowlist typically covers
+> `anthropics/*` and your own org's repos. That is a supply-chain control
+> working as intended, not a bug. Either use the clone path above, or ask
+> whoever manages those settings to allowlist this repo.
 
 **Claude Code** (maintainers): clone and run `claude` in the repo. The skill in
 `.claude/skills/` auto-loads.
@@ -97,8 +112,12 @@ cd Claude-Cowork-Positioning && claude
 ## Before committing
 
 ```bash
-python3 scripts/check-refs.py && python3 scripts/check-sources.py
+python3 scripts/check-refs.py && python3 scripts/check-sources.py && python3 scripts/sync-skills.py --check
 ```
+
+`sync-skills --check` fails if `.claude/skills/` has drifted from `plugin/skills/`
+— the skills exist in both places for two install paths, so the duplication is
+enforced mechanically rather than remembered. Run it without `--check` to re-sync.
 
 `check-refs` fails if a persona references a value prop slug that doesn't exist,
 so the link to the foundation can't silently rot. `check-sources` fails on any

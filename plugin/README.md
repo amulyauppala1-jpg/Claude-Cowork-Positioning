@@ -53,6 +53,16 @@ prevents collisions with other plugins' skills.
 
 The repo is **private**, so anyone installing needs read access to it.
 
+### If the marketplace add is blocked
+
+Managed settings can restrict which marketplaces you may add, usually to
+`anthropics/*` plus your own organization's repos. A personal repo will be
+refused. That control is doing its job — don't route around it.
+
+Two options: clone the repo and use the skills directly from `.claude/skills/`
+(no install, works immediately), or ask whoever manages those settings to
+allowlist the repo.
+
 ### To develop or test locally
 
 ```bash
