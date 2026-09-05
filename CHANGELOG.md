@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-09-05 (repo is the backend)
+- Removed the generated CFO assets. The repo holds the foundation, personas, brand, skills and checks; assets are generated in Claude on demand and live wherever the person needs them. Committing output puts a copy where a pointer belongs, and a copy goes stale with nothing to catch it.
+
 ## 2026-09-05 (deliverables)
 - `personas/cfo/assets/` — three coordinated assets built to one spine: landing section, 5-slide pitch narrative, ad unit + email. All lead `vp-coverage`, share one proof point and one core phrase.
 - `ARCHITECTURE.md` — diagram plus rationale and the five trust mechanisms.

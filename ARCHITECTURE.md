@@ -93,6 +93,17 @@ missing; skills report them instead of improvising. The CFO file carries a
 **blocking** gap — no pricing — and every CFO asset says so rather than
 estimating. A stated gap is the system working.
 
+## What isn't here
+
+**No generated assets.** The repo is the backend. A seller asks in Cowork, the
+asset appears in the conversation, and they use it where they work — it is never
+written back. Committing output would put a copy where a pointer belongs, and a
+copy goes stale with nothing to catch it.
+
+The one build artifact that *is* committed is `dist/cowork-positioning.zip`,
+which is the system packaged for the zero-setup path — a release of the thing,
+not output from it.
+
 ## Staying current
 
 An edit to `products/` reaches everything downstream without touching another

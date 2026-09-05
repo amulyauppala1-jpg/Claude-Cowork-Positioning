@@ -29,7 +29,6 @@ products/cowork-enterprise.md    The foundation — what is true
 personas/
   cfo/          cmo/          cro/          chro/       general-counsel/
     README.md     README.md     README.md     README.md    README.md
-    examples/     examples/     examples/     examples/    examples/
   _TEMPLATE.md                   Start here for a new persona
 brand/README.md                  Voice, tone, colors, logos
 plugin/                          Installable Cowork plugin — 12 skills, entry point is start-here
@@ -39,11 +38,15 @@ dist/                            Built .zip skill — one upload, nothing to con
 refresh-tasks.md                 Scheduled tasks to keep the foundation current
 ```
 
-**`examples/` holds specimens, not an asset library.** Generated output doesn't
-belong in a source repo — it goes stale the moment a persona changes and nothing
-catches it, because a rendered page is a copy rather than a pointer. Assets are
-generated fresh on demand and live where the team works. The examples exist so
-the ranking argument can be read next to the ranking applied.
+**No generated assets live here, deliberately.** This repo is the backend: the
+foundation, the persona layer, the brand kit, the skills and the checks. Assets
+are generated in Claude when someone needs one and live wherever that person
+works — a doc, a deck, the CMS, an email. Nothing is written back.
+
+That isn't tidiness. A rendered page is a *copy*, not a pointer, so it goes stale
+the moment a persona changes and nothing catches it — `check-refs.py` catches a
+broken slug precisely because a slug points at something. Committing output
+would reintroduce the drift the whole system exists to prevent, one layer out.
 
 ## Precedence — settle disagreements in this order
 
