@@ -1,0 +1,16 @@
+{
+  "name": "cowork-positioning",
+  "owner": {
+    "name": "Amulya Uppala"
+  },
+  "plugins": [
+    {
+      "name": "cowork-positioning",
+      "displayName": "Cowork Positioning",
+      "description": "Build GTM assets for Cowork grounded in this repo's positioning, persona and brand files. Reads them live from GitHub so output can't drift from what's approved, and refuses to invent proof points.",
+      "category": "marketing",
+      "source": "./plugin"
+    }
+  ],
+  "description": "GTM asset skills grounded in the Cowork positioning repo \u2014 personas, brand and proof points, with a built-in tester that attacks drafts in character."
+}

@@ -75,8 +75,16 @@ Full rules: `.claude/skills/gtm-from-positioning/SKILL.md`.
 
 ## Using it
 
-**Cowork** (marketers and sales — no clone needed): install the plugin in
-`plugin/`, connect GitHub, point it at this repo. See `plugin/README.md`.
+**Cowork / Claude Code** (marketers and sales — no clone needed):
+
+```
+/plugin marketplace add amulyauppala1-jpg/Claude-Cowork-Positioning
+/plugin install cowork-positioning@cowork-positioning
+```
+
+Then connect the GitHub connector and grant access to this repo — the skills
+read it at generation time. Skills appear namespaced, e.g.
+`/cowork-positioning:landing-page`. See `plugin/README.md`.
 
 **Claude Code** (maintainers): clone and run `claude` in the repo. The skill in
 `.claude/skills/` auto-loads.

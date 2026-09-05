@@ -37,11 +37,29 @@ than a content mill:
 
 ## Install
 
-1. Install this plugin in Cowork.
-2. **Connect GitHub** and grant access to
-   `amulyauppala1-jpg/Claude-Cowork-Positioning`.
+```
+/plugin marketplace add amulyauppala1-jpg/Claude-Cowork-Positioning
+/plugin install cowork-positioning@cowork-positioning
+```
 
-Step 2 is required, not optional. The skills read the repo at generation time.
+Then **connect the GitHub connector** and grant access to
+`amulyauppala1-jpg/Claude-Cowork-Positioning`. That step is required, not
+optional — the skills read the repo at generation time, so without it they have
+nothing to ground against.
+
+Skills appear namespaced: `/cowork-positioning:landing-page`,
+`/cowork-positioning:roleplay-tester`, and so on. Namespacing is automatic and
+prevents collisions with other plugins' skills.
+
+The repo is **private**, so anyone installing needs read access to it.
+
+### To develop or test locally
+
+```bash
+claude --plugin-dir ./plugin
+```
+
+Loads it without installing. Run `/reload-plugins` after editing a skill.
 
 ## Why it reads live instead of bundling the content
 
