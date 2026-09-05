@@ -8,6 +8,9 @@ GTM assets from it without drifting from what is actually written down.
 
 ---
 
+**Architecture:** see [`ARCHITECTURE.md`](ARCHITECTURE.md) — diagram, design
+rationale, and what keeps output trustworthy.
+
 ## Start here
 
 1. **`products/cowork-enterprise.md`** — the foundation. What is true: claims,

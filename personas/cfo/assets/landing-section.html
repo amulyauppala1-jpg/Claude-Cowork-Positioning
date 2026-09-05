@@ -1,0 +1,76 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cowork for Finance — landing section</title>
+<style>
+  :root { --clay:#D97757; --ivory:#FAF9F5; --slate:#141413; --muted:#5c5b57; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--ivory); color:var(--slate);
+         font:16px/1.65 ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+         -webkit-font-smoothing:antialiased; }
+  .section { max-width:960px; margin:0 auto; padding:88px 28px 96px; }
+  h1 { font-size:clamp(2rem,5vw,3.1rem); line-height:1.12; letter-spacing:-0.02em;
+       margin:0 0 20px; font-weight:600; max-width:16ch; }
+  .sub { font-size:clamp(1.05rem,2vw,1.3rem); line-height:1.5; color:var(--muted);
+         margin:0 0 52px; max-width:52ch; }
+  .points { display:grid; gap:34px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+            border-top:1px solid rgba(20,20,19,.14); padding-top:40px; }
+  .points h2 { font-size:1.05rem; margin:0 0 9px; font-weight:600; letter-spacing:-0.01em; }
+  .points p { margin:0; color:var(--muted); font-size:.96rem; }
+  .proof { margin:52px 0 0; padding:26px 30px; background:rgba(20,20,19,.035);
+           border-left:2px solid var(--clay); border-radius:2px; }
+  .proof p { margin:0; font-size:1.02rem; max-width:58ch; }
+  .proof cite { display:block; margin-top:12px; font-size:.83rem; font-style:normal; color:var(--muted); }
+  .cta { margin-top:52px; }
+  .cta a { display:inline-block; background:var(--slate); color:var(--ivory);
+           text-decoration:none; padding:14px 26px; border-radius:6px;
+           font-weight:500; font-size:1rem; }
+  .cta small { display:block; margin-top:14px; color:var(--muted); font-size:.85rem; }
+  .flag { max-width:960px; margin:0 auto; padding:0 28px 72px; }
+  .flag p { font-size:.8rem; color:var(--muted); border-top:1px solid rgba(20,20,19,.12);
+            padding-top:18px; margin:0; }
+</style>
+
+<section class="section">
+  <h1>One deployment, not another line item.</h1>
+  <p class="sub">You already pay for AI in three places. Cowork is how those become one —
+     an agentic workspace deployed once by IT, configured per function, covering every
+     knowledge worker in the company.</p>
+
+  <div class="points">
+    <div>
+      <h2>One vendor, not a procurement cycle per team</h2>
+      <p>Every knowledge worker gets Cowork across desktop, web and mobile. Every engineer
+         gets Claude Code. One relationship, one renewal, one security review.</p>
+    </div>
+    <div>
+      <h2>Cloud-run for machines that can't take a desktop install</h2>
+      <p>Enterprise deployment and controls now extend to cloud-run Cowork in beta —
+         Windows-locked estates, VDI, and otherwise restricted environments.</p>
+    </div>
+    <div>
+      <h2>Configured for how each function already works</h2>
+      <p>Plugins for finance, legal, sales, marketing and more, connecting the tools those
+         teams already use. Adoption doesn't wait on a training programme.</p>
+    </div>
+  </div>
+
+  <div class="proof">
+    <p>More than 90% of Cowork usage isn't software development. The largest categories are
+       business operations and content creation — together roughly half of all usage.</p>
+    <cite>Anthropic, “Claude Cowork on web and mobile,” 7 July 2026. Anonymized session
+          sample across a large base of organizations, May 2026.</cite>
+  </div>
+
+  <div class="cta">
+    <a href="#">Get Cowork for your team</a>
+    <small>Commercial terms available from sales — see note below.</small>
+  </div>
+</section>
+
+<div class="flag">
+  <p><strong>Draft.</strong> Grounded in <code>products/cowork-enterprise.md</code> and
+     <code>personas/cfo/README.md</code> (updated 2026-09-05, <code>status: draft</code> —
+     positioning language not yet signed off). No pricing content exists in the repo, so
+     this section stops short of a per-seat figure rather than estimating one.</p>
+</div>

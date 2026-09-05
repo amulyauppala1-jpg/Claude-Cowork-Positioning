@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-05 (deliverables)
+- `personas/cfo/assets/` — three coordinated assets built to one spine: landing section, 5-slide pitch narrative, ad unit + email. All lead `vp-coverage`, share one proof point and one core phrase.
+- `ARCHITECTURE.md` — diagram plus rationale and the five trust mechanisms.
+
 ## 2026-09-05 (source resolution)
 - Every skill now resolves its source live-first: GitHub connector, then a direct raw fetch (live and zero-setup if the repo is readable), then the local folder, then the embedded snapshot. Stops at the first that works and reports which it used.
 - `scripts/build-bundle.py` packages the whole system as one uploadable `.zip` for Settings > Skills. The embedded copy is the floor, not the goal.
