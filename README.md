@@ -29,7 +29,7 @@ products/cowork-enterprise.md    The foundation — what is true
 personas/
   cfo/          cmo/          cro/          chro/       general-counsel/
     README.md     README.md     README.md     README.md    README.md
-    assets/       assets/       assets/       assets/      assets/
+    examples/     examples/     examples/     examples/    examples/
   _TEMPLATE.md                   Start here for a new persona
 brand/README.md                  Voice, tone, colors, logos
 plugin/                          Installable Cowork plugin — 12 skills, entry point is start-here
@@ -38,6 +38,12 @@ scripts/                         Integrity checks and the bundle builder
 dist/                            Built .zip skill — one upload, nothing to connect
 refresh-tasks.md                 Scheduled tasks to keep the foundation current
 ```
+
+**`examples/` holds specimens, not an asset library.** Generated output doesn't
+belong in a source repo — it goes stale the moment a persona changes and nothing
+catches it, because a rendered page is a copy rather than a pointer. Assets are
+generated fresh on demand and live where the team works. The examples exist so
+the ranking argument can be read next to the ranking applied.
 
 ## Precedence — settle disagreements in this order
 
