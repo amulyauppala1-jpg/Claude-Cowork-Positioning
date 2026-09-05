@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-05 (CHRO + General Counsel — persona set complete)
+- `personas/chro.md` — the HR plugin's two headline capabilities (performance review, compensation analysis) sit in HR's two most legally exposed domains. Lead with onboarding and policy guidance instead; this inverts the instinct used for every other persona.
+- `personas/general-counsel.md` — **corrects the gatekeeper assumption.** First-party evidence: legal became the number-one power-user function in Cowork at 3x any other. The GC is the leading function, not the reluctant one. File serves two readers — legal as buyer, legal as blocker.
+- Open, highest-priority question: an unverified competitor claim that a 2026 federal ruling found Claude exchanges lack attorney-client privilege. Recorded as a question to verify, not repeated as fact.
+- `products/` gains legal and HR plugin detail plus the legal adoption data.
+
 ## 2026-09-05 (sourcing audit)
 - `scripts/check-sources.py` — fails on any numeric claim without a citation nearby. Found 9 uncited blocks across the three personas on first run.
 - Source hierarchy encoded: Anthropic first-party > independent named research > aggregated secondary > practitioner. Community-contributed skills are explicitly not first-party evidence.

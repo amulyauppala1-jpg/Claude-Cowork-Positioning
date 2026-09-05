@@ -8,6 +8,7 @@ A single source of truth for Cowork positioning, set up so Claude Code reads fro
 .claude/skills/gtm-from-positioning/SKILL.md    The skill — auto-loads via Claude Code
 products/cowork-enterprise.md                    Enterprise positioning, with sourced proof points
 personas/                                        Per-role framing; references product props by slug
+  cfo.md  cmo.md  cro.md  chro.md  general-counsel.md
 refresh-tasks.md                                 Scheduled-task prompts for keeping the above current
 scripts/check-refs.py                            Verifies persona -> product references resolve
 scripts/check-sources.py                         Fails on any numeric claim without a nearby citation
