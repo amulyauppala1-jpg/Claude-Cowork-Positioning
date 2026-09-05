@@ -19,9 +19,18 @@ asking as little as possible.**
 
 ## Step 1 — Orient yourself first, silently
 
-Read `README.md` from the repo (local folder or the GitHub connector), then list
-what actually exists: which personas are in `personas/`, and which skills are
-available. **Don't assume this document is current** — personas get added.
+Read `README.md`, trying these in order and stopping at the first that works:
+the **GitHub connector**; a **direct fetch** of
+`https://raw.githubusercontent.com/amulyauppala1-jpg/Claude-Cowork-Positioning/main/README.md`
+if the repo is public; the **local folder** if it's open as a workspace; or the
+**embedded snapshot** at `reference/README.md` if this is a bundle.
+
+Then list what actually exists — the personas in `personas/`, the skills
+available. **Don't assume this document is current**; personas get added.
+
+Note which source you got, and mention it once when you deliver — live versus a
+dated snapshot is the difference between output that can be trusted and output
+that should be checked.
 
 Do not narrate this. The person asked for help, not a status report.
 
@@ -63,9 +72,20 @@ means a one-pager; "something for the website" means a landing page.
 | battlecard, competitor, "how we win against" | `competitive-battlecard` |
 | something they can take to their boss / their team | `internal-champion-pitch` |
 | check this, review, test, is this on-message | `roleplay-tester` |
+| a meeting, call, demo, named account, "prep me" | `deal-prep` |
+| a campaign, launch, "everything I need for" | `campaign-kit` |
 
 If nothing matches, ask what they'd do with it rather than listing options.
 The use tells you the format.
+
+**Two requests aren't asset requests, and they're easy to misroute:**
+
+- **A meeting or a named account** — "I have a CFO call Thursday" is not a
+  request for a one-pager. They want to walk in ready. Route to `deal-prep`,
+  which produces a briefing, not something to send.
+- **Several assets for one audience** — route to `campaign-kit`, not three
+  separate skills. Run separately they each lead with a different argument and
+  read as unrelated; `campaign-kit` fixes one spine across the set.
 
 ### One team, or the whole company?
 

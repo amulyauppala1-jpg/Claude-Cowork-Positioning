@@ -25,19 +25,18 @@ os.makedirs(stage)
 # --- the router becomes the bundle's SKILL.md, rewritten to read embedded files
 router = open("plugin/skills/start-here/SKILL.md").read()
 body = router.split("---", 2)[2]
-body = body.replace("""Read `README.md` from the repo (local folder or the GitHub connector), then list
-what actually exists: which personas are in `personas/`, and which skills are
-available. **Don't assume this document is current** — personas get added.""",
-"""Read `reference/README.md` from this skill's own bundled files, then list what
-actually exists: the personas in `reference/personas/`, and the asset
-instructions in `reference/skills/`. Everything is embedded — there is nothing
-to clone and no connector to configure.""")
+body = body.replace("""**embedded snapshot** at `reference/README.md` if this is a bundle.""",
+"""**embedded snapshot** at `reference/README.md`, which this bundle carries.
+
+The embedded copy is the floor, not the goal: it guarantees the skill always
+works, but prefer a live source whenever one is reachable.""")
 body = body.replace("""Invoke the matching skill. It handles grounding, ranking, brand and citation.
 **Don't rebuild its work here** — this skill routes, it doesn't generate.""",
-"""Read `reference/skills/<name>.md` and follow it exactly. Those files carry the
-grounding rules, format conventions and reporting requirements. Ground every
-claim in `reference/products/cowork-enterprise.md`, rank using the persona file,
-and apply `reference/brand/README.md`.""")
+"""Read the matching instructions from `reference/skills/<name>.md` and follow them
+exactly — they carry the grounding rules, format conventions and reporting
+requirements. Those instruction files are stable; the *positioning* is what goes
+stale, so resolve `products/`, `personas/` and `brand/` live where you can and
+fall back to `reference/` only when you cannot.""")
 
 open(f"{stage}/SKILL.md","w").write(f"""---
 name: cowork-positioning
@@ -64,9 +63,15 @@ Everything is embedded under `reference/` — no repository access needed.
 - **Source commit:** `{sha}`{" (uncommitted changes present at build time)" if dirty else ""}
 - **Source:** github.com/amulyauppala1-jpg/Claude-Cowork-Positioning
 
-**This is a snapshot, not a live read.** If the build date is more than a few
-weeks old, say so when it matters — a proof point that was current at build time
-may have passed its 90-day ceiling since. Re-export from the repo to refresh.
+**Prefer live, fall back to this.** The embedded copy guarantees the skill works
+with no setup at all, but it is a snapshot. Resolve the source in the order given
+in Step 1 — connector, then direct fetch, then local folder, then these files —
+and say which one you used.
+
+If you fall back to the embedded copy and the build date above is more than about
+six weeks old, say so: a proof point that was current at build time may have
+passed its 90-day ceiling since. Rebuild with `scripts/build-bundle.py` to
+refresh, or connect a live source and the age stops mattering.
 """)
 
 # --- embed the content

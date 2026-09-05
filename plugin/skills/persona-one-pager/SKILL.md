@@ -8,17 +8,32 @@ description: >-
 
 # Persona one-pager
 
-## Step 1 — Load the source (always, every time)
+## Step 1 — Load the source, freshest first
 
-Fetch these from `amulyauppala1-jpg/Claude-Cowork-Positioning` via the GitHub
-connector. Never work from memory or from earlier in the conversation.
+Try these in order and **stop at the first that works**. Never work from memory
+or from earlier in the conversation.
 
-1. `README.md` — routing and the rules.
-2. `products/cowork-enterprise.md` — the foundation.
-3. `personas/<role>/README.md` — the persona.
-4. `brand/README.md` — voice, tone, colors.
-5. `.claude/skills/gtm-from-positioning/SKILL.md` — the full grounding rules.
-   **Follow them.** They are not restated here, so they can't drift from the repo.
+1. **GitHub connector** — if connected, read from
+   `amulyauppala1-jpg/Claude-Cowork-Positioning`. Live.
+2. **Direct fetch** — if the repo is public, fetch the raw files at
+   `https://raw.githubusercontent.com/amulyauppala1-jpg/Claude-Cowork-Positioning/main/<path>`.
+   Live, and needs no connector or account.
+3. **Local folder** — if the repo is open as a workspace, read it from disk.
+   Live as of the last `git pull`.
+4. **Embedded snapshot** — `reference/` inside this skill bundle, if present.
+   Read `reference/VERSION.json` for its build date.
+
+Load: `README.md`, `products/cowork-enterprise.md`,
+`personas/<role>/README.md`, `brand/README.md`, and — where not already in your
+instructions — the repo's `.claude/skills/gtm-from-positioning/SKILL.md` for the
+full grounding rules. **Follow them.** They are not restated here, so they can't
+drift from the repo.
+
+**Say which source you used, in one line.** "Read live from GitHub" and "using an
+embedded snapshot built 2026-09-05" mean different things to whoever relies on
+the output, and only one of them needs checking. If you fell back to the
+snapshot and it is more than about six weeks old, say so plainly — proof points
+that were current at build time may have passed their 90-day ceiling since.
 
 If the persona folder doesn't exist, say so and build the function-agnostic
 version. Don't improvise a persona.
