@@ -29,7 +29,7 @@ personas/
     assets/       assets/       assets/       assets/      assets/
   _TEMPLATE.md                   Start here for a new persona
 brand/README.md                  Voice, tone, colors, logos
-plugin/                          Installable Cowork plugin — the asset skills
+plugin/                          Installable Cowork plugin — 9 asset skills + the tester
 .claude/skills/                  Project skill — auto-loads in Claude Code
 scripts/                         Integrity checks — run before committing
 refresh-tasks.md                 Scheduled tasks to keep the foundation current

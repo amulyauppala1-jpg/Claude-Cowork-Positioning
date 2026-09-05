@@ -5,17 +5,35 @@ cloning anything, editing markdown, or asking the person who maintains it.
 
 ## What it does
 
-Three skills, each producing one asset type, all grounded in the same source:
+9 skills, all grounded in the same source:
 
 | Skill | Produces |
 |---|---|
-| `landing-section` | A landing-page section as standalone HTML |
-| `pitch-narrative` | A 3–5 slide pitch narrative as HTML slides |
-| `ad-and-email` | An ad unit (headline / sub-headline / CTA) or a cold email |
+| `blog-post` | Long-form article — must be useful to someone who never buys |
+| `campaign-email` | Marketing/nurture email, plus short paid copy |
+| `competitive-battlecard` | Category battlecard (see the gap note in the skill) |
+| `internal-champion-pitch` | A forwardable business case in *their* voice, not ours |
+| `landing-page` | Landing page or page section, as HTML |
+| `persona-one-pager` | Single-page overview — the canonical leave-behind |
+| `pitch-and-narrative-deck` | 3–8 slide narrative, as HTML slides |
+| `roleplay-tester` | Attacks a draft in character. Run before anything ships |
+| `sales-outreach-sequence` | Multi-touch 1:1 outreach cadence |
 
-Ask in plain language — *"landing page section for a CFO"* — and the skill
-resolves the persona, checks the motion, ranks the value props correctly, and
-cites what it used.
+Ask in plain language — *"landing page for a CFO"*, *"outreach sequence for a
+CRO"* — and the skill resolves the persona, checks the motion, ranks the value
+props for that buyer, and cites what it used.
+
+Two of these aren't generators, and they're the reason this is a system rather
+than a content mill:
+
+- **`internal-champion-pitch`** is the only asset whose reader isn't its
+  audience. The champion receives it; their CFO reads it. So it composes *two*
+  persona files — the champion's for vocabulary, the approver's for decision
+  criteria — and is written in their voice with no brand styling, because
+  anything that looks like vendor material can't be forwarded.
+- **`roleplay-tester`** attacks a draft in character using the persona's
+  documented objections, after six mechanical PASS/FAIL checks. It's how anyone
+  can verify an asset without the person who built the repo.
 
 ## Install
 
