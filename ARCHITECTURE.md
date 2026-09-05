@@ -2,6 +2,16 @@
 
 ```mermaid
 flowchart TB
+    subgraph FEED["INBOUND · assumed connectors, none attached today"]
+        direction LR
+        G["<b>Gong</b><br/>real objections, verbatim<br/>language, deal references"]
+        GU["<b>Guru</b> / wiki<br/>competitive docs<br/><i>→ the missing competitors/ layer</i>"]
+        UE["<b>Quote DB</b><br/>approved, attributable<br/>customer proof"]
+        SF["<b>CRM</b><br/>win/loss · who actually<br/>signs, by segment"]
+        AN["<b>Anthropic blog<br/>+ plugin registry</b><br/>product facts"]
+        SL["<b>Slack</b><br/>field drift signal"]
+    end
+
     subgraph SRC["SOURCE OF TRUTH · one repo"]
         direction TB
         P["<b>products/</b><br/>cowork-enterprise.md<br/><i>what is true</i><br/>claims · proof · plugins"]
@@ -27,6 +37,7 @@ flowchart TB
     OUT["ASSETS<br/>grounded · ranked · cited"]
     CHK["CHECKS<br/>check-refs · check-sources · sync-skills"]
 
+    FEED ==>|"scheduled tasks open a PR<br/><b>never write to main</b>"| SRC
     SRC --> RES --> SK --> OUT
     CHK -.-> SRC
     T -.->|"fails → back to draft"| A
@@ -36,7 +47,7 @@ flowchart TB
     classDef plain fill:#FAF9F5,stroke:#5c5b57,stroke-dasharray:3 3,color:#141413
     class P,PER,B,SH,A,SP src
     class OUT,T acc
-    class CHK,R1,R2,R3,R4 plain
+    class CHK,R1,R2,R3,R4,G,GU,UE,SF,AN,SL plain
 ```
 
 ## Why it's built this way
@@ -106,19 +117,71 @@ not output from it.
 
 ## Staying current
 
-An edit to `products/` reaches everything downstream without touching another
-file. Replace a stale proof point and every persona picks it up, because they
-reference rather than copy. Reorder value props and nothing breaks, because slugs
-travel with the claim. Rename one and `check-refs` fails loudly.
+**Assumed connectors, none attached today.** Named so the design is checkable
+rather than aspirational — and matched to the *kind* of staleness each can
+actually catch. A web search will never find a customer quote sitting in a sales
+call; a call recorder will never tell you a competitor shipped the same feature.
 
-The staleness that matters isn't the file, it's the *evidence*. Proof points
-carry a 90-day ceiling and skills flag anything past it — two entries are flagged
-stale today rather than quietly used. `refresh-tasks.md` specifies three
-scheduled checks at three cadences: proof points monthly, competitive positioning
-quarterly, internal drift weekly. **None of them writes to `main`** — automating
-the check is safe; automating the judgment about what counts as on-positioning is
-exactly what a human should keep.
+| Source | Catches | Feeds |
+|---|---|---|
+| **Gong** | Real objections and the words buyers actually use | `personas/*` objections and vocabulary |
+| **Guru** or a wiki | Competitor moves and positioning | the missing `competitors/` layer |
+| **Quote database** | Approved, attributable customer proof | `products/` proof points |
+| **CRM** | Win/loss, and who really signs by segment | `roles_by_motion` — currently inferred, not observed |
+| **Anthropic blog + plugin registry** | New capability, new plugins, benchmark claims | `products/` claims and roster |
+| **Slack** | Reps noticing the file is wrong before it costs a deal | flags for the owner |
 
-What I'd add next, in order: a `pricing/` layer (the blocking gap), a
-`competitors/` layer (no named-competitor battlecard can be built without it),
+`refresh-tasks.md` already specifies three of these at three cadences: proof
+points monthly, competitive quarterly, drift weekly.
+
+### One update, traced end to end
+
+The sales proof point in `products/` is **108 days old** — past the 90-day
+ceiling, and flagged stale in every asset that uses it. Here is that flag
+clearing:
+
+1. **Monthly task queries Gong** for recent calls where a customer describes a
+   Cowork outcome, and the quote database for anything newly approved.
+2. **It finds a dated, attributable one** — and if it doesn't, it says so and
+   changes nothing. No task is allowed to invent a proof point.
+3. **It opens a pull request** against `products/cowork-enterprise.md`,
+   replacing the stale entry and updating the freshness note.
+4. **CI runs the three checks.** `check-sources.py` fails the PR if the new
+   entry carries no citation. This is the load-bearing step: it means a bad
+   update cannot merge even if nobody reads it carefully.
+5. **A human merges it.** Automating the check is safe; automating the judgment
+   about what counts as on-positioning is exactly what a person should keep.
+6. **Every persona picks it up with no edit.** They reference rather than copy,
+   so nothing downstream had to know this happened.
+7. **The bundle rebuilds** on merge. Live sources are already current; the
+   snapshot catches up within minutes rather than months.
+8. **The next asset cites the new proof point**, and the stale warning stops
+   appearing — because the condition that produced it is gone, not because
+   someone silenced it.
+
+**Nothing in that chain writes to `main`.** Every path in is a pull request or an
+issue. That is the single most important property here: the system can gather
+evidence continuously and still cannot change the positioning on its own.
+
+### The same trace, starting from a persona
+
+An update can also start downstream. A rep reports in Slack that CFOs keep
+raising a consumption-cost objection the file doesn't cover. The weekly task
+flags it; someone adds it to `personas/cfo/README.md` with its source and
+confidence tier. No product claim changed, so `products/` is untouched — but
+every CFO asset generated afterwards pre-empts that objection, and `deal-prep`
+starts briefing sellers on it.
+
+The layers move independently. That is what the precedence rule buys.
+
+`pricing/cowork-enterprise.md` now holds the *shape* of the CFO answer — the
+per-seat-versus-run-rate comparison, the threshold question, and the consumption
+question that matters more than list price for a buyer measured on forecast
+accuracy. Every figure in it is a bracketed placeholder marked `SYNTHETIC`, so
+assets still say terms are unavailable. **The structure is real and the numbers
+are not, and the file says which** — that is the honest state, and it is better
+than either an empty gap or an invented figure.
+
+What I'd add next, in order: real commercial terms replacing those placeholders,
+a `competitors/` layer (no named-competitor battlecard can be built without it),
 and CI running the three checkers plus a bundle rebuild on every merge.

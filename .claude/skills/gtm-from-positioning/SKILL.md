@@ -16,7 +16,10 @@ This skill ships inside the repo at `.claude/skills/gtm-from-positioning/`, so c
 
 **In claude.ai chat (repo not cloned):** Fetch the raw file instead -- e.g. `https://raw.githubusercontent.com/<org>/<repo>/main/products/cowork-enterprise.md` via `web_fetch` for a public repo, or the GitHub connector for a private one.
 
-Pull whatever's relevant to the request. This repo currently has `products/` and `personas/` (no `pillars/`, `pricing/`, or `segments/` yet) -- don't assume others exist; check what's actually here before reading.
+Pull whatever's relevant to the request. This repo currently has `products/`,
+`personas/`, `brand/` and `pricing/` (no `pillars/`, `competitors/` or `segments/` yet).
+**`pricing/` is `SYNTHETIC`** -- structure and bracketed placeholders, no figures.
+Use it to shape a commercial conversation; never render a placeholder as a number -- don't assume others exist; check what's actually here before reading.
 
 ## Step 2: Check status before using anything
 

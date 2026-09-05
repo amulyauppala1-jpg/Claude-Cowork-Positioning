@@ -26,6 +26,7 @@ generic, wrongly ordered, or off-brand.
 
 ```
 products/cowork-enterprise.md    The foundation — what is true
+pricing/cowork-enterprise.md     Commercial model — SYNTHETIC, structure only
 personas/
   cfo/          cmo/          cro/          chro/       general-counsel/
     README.md     README.md     README.md     README.md    README.md
@@ -50,6 +51,7 @@ would reintroduce the drift the whole system exists to prevent, one layer out.
 
 ## Precedence — settle disagreements in this order
 
+0. **`pricing/` is `SYNTHETIC`** — structure and placeholders, never figures.
 1. **`products/` wins on what is true.** A persona can never assert a capability
    the product file doesn't support.
 2. **`personas/` wins on emphasis.** Which props lead, in what order, what

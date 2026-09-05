@@ -78,4 +78,6 @@ Every knowledge worker gets Cowork — across desktop, web, and mobile — worki
 > **STALE — 116 days old as of 2026-09-05.** Flag on use. Benchmark figure is vendor-reported; say so.
 > `TODO(source)`: the repo has no counsel-reviewed position on privilege or work product. It is a standard question from legal buyers and currently routes to escalation. See `personas/general-counsel.md`.
 
+**Commercial model:** see `pricing/cowork-enterprise.md`. It is `SYNTHETIC` — structure and placeholders only, no figures. Assets must say terms are unavailable rather than estimate them.
+
 **Freshness check:** as of 2026-09-05, the original three points and the marketing-ops example are ≤60 days old; the sales example is 108 days old and flagged stale above. Re-verify or replace before ~2026-12-05 (90-day ceiling) or sooner if Anthropic publishes newer usage data.

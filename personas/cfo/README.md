@@ -238,15 +238,20 @@ reads as peer-level. (Source: [Gordon Pothier, CFO of Board, Bloomberg Businessw
 A per-seat number set against current AI spend across the tools Cowork
 consolidates. Everything above is framing; this is the artifact that closes it.
 
-> **BLOCKING GAP — `TODO(source)`.** No `pricing/` content exists in this repo.
+> **BLOCKING GAP — `TODO(source)`.** `pricing/cowork-enterprise.md` now carries
+> the *structure* of this answer — the per-seat-versus-run-rate comparison model
+> and the threshold question — but every figure in it is a bracketed placeholder
+> marked `SYNTHETIC`. So the shape of the conversation exists and the number does
+> not.
 > When the CFO was modeled as an approver this was a weakness. As the economic
 > buyer it is a hole in the middle of the primary asset: the person who signs
 > cannot sign without a number. Every other section here is preparation for a
 > conversation this repo cannot currently finish.
 >
-> Until `pricing/` exists, assets for this persona must state that commercial
-> terms are unavailable rather than estimate them — and whoever uses one should
-> know they are carrying an incomplete document.
+> Assets for this persona must still state that commercial terms are unavailable
+> rather than estimate them, and whoever uses one should know they are carrying an
+> incomplete document. Use the comparison model to structure the conversation;
+> never render a placeholder as if it were a figure.
 
 ## Who else is in the room
 The CFO decides; everyone else shapes the decision.

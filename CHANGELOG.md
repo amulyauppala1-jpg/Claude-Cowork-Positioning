@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-05 (staying current + pricing)
+- `ARCHITECTURE.md` and the overview page now name the assumed inbound connectors — Gong, Guru, a quote database, CRM, the Anthropic blog, Slack — each matched to the kind of staleness it can catch, and trace one update end to end: the 108-day-old sales proof point clearing through a PR that CI gates. Nothing writes to `main`.
+- `pricing/cowork-enterprise.md` — the commercial layer, `SYNTHETIC`. Bracketed placeholders, never figures. Carries the per-seat-versus-run-rate comparison model, the approval-threshold question, and the consumption question that matters more than list price for a buyer measured on forecast accuracy.
+
 ## 2026-09-05 (repo is the backend)
 - Removed the generated CFO assets. The repo holds the foundation, personas, brand, skills and checks; assets are generated in Claude on demand and live wherever the person needs them. Committing output puts a copy where a pointer belongs, and a copy goes stale with nothing to catch it.
 
