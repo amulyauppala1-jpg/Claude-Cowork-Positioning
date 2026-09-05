@@ -63,9 +63,20 @@ means a one-pager; "something for the website" means a landing page.
 | battlecard, competitor, "how we win against" | `competitive-battlecard` |
 | something they can take to their boss / their team | `internal-champion-pitch` |
 | check this, review, test, is this on-message | `roleplay-tester` |
+| a meeting, call, demo, named account, "prep me" | `deal-prep` |
+| a campaign, launch, "everything I need for" | `campaign-kit` |
 
 If nothing matches, ask what they'd do with it rather than listing options.
 The use tells you the format.
+
+**Two requests aren't asset requests, and they're easy to misroute:**
+
+- **A meeting or a named account** — "I have a CFO call Thursday" is not a
+  request for a one-pager. They want to walk in ready. Route to `deal-prep`,
+  which produces a briefing, not something to send.
+- **Several assets for one audience** — route to `campaign-kit`, not three
+  separate skills. Run separately they each lead with a different argument and
+  read as unrelated; `campaign-kit` fixes one spine across the set.
 
 ### One team, or the whole company?
 

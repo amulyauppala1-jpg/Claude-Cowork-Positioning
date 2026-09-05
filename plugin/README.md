@@ -5,7 +5,7 @@ cloning anything, editing markdown, or asking the person who maintains it.
 
 ## What it does
 
-10 skills, all grounded in the same source:
+12 skills, all grounded in the same source:
 
 | Skill | Produces |
 |---|---|
@@ -17,6 +17,8 @@ cloning anything, editing markdown, or asking the person who maintains it.
 | `landing-page` | Landing page or page section, as HTML |
 | `persona-one-pager` | Single-page overview — the canonical leave-behind |
 | `pitch-and-narrative-deck` | 3–8 slide narrative, as HTML slides |
+| `deal-prep` | A briefing for a specific meeting — not something to send |
+| `campaign-kit` | A coordinated set that all leads with the same argument |
 | `roleplay-tester` | Attacks a draft in character. Run before anything ships |
 | `sales-outreach-sequence` | Multi-touch 1:1 outreach cadence |
 
@@ -30,8 +32,15 @@ CFO"*, *"outreach sequence for a CRO"*. The skill resolves the persona, checks
 whether it's a departmental or company-wide purchase, ranks the value props for
 that buyer, and cites what it used.
 
-Two of these aren't generators, and they're the reason this is a system rather
-than a content mill:
+Two requests don't look like asset requests, and they get their own skills:
+**`deal-prep`** turns "I have a CFO meeting Thursday" into a briefing — what to
+lead with, what not to say, what you can't answer — rather than a document.
+**`campaign-kit`** builds several assets as one thing, fixing the lead argument,
+proof point and core phrase up front, because three skills run separately
+produce three pieces that disagree with each other.
+
+Two more aren't generators at all, and they're the reason this is a system
+rather than a content mill:
 
 - **`internal-champion-pitch`** is the only asset whose reader isn't its
   audience. The champion receives it; their CFO reads it. So it composes *two*

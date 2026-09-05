@@ -29,7 +29,7 @@ personas/
     assets/       assets/       assets/       assets/      assets/
   _TEMPLATE.md                   Start here for a new persona
 brand/README.md                  Voice, tone, colors, logos
-plugin/                          Installable Cowork plugin — start-here router + 9 asset skills
+plugin/                          Installable Cowork plugin — 12 skills, entry point is start-here
 .claude/skills/                  Same skills, auto-loaded on clone — kept in sync by script
 scripts/                         Integrity checks — run before committing
 refresh-tasks.md                 Scheduled tasks to keep the foundation current

@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-05 (request shapes)
+- `deal-prep` — the sales-shaped request. "I have a CFO meeting Thursday" wants readiness, not an asset: lead line, what not to say, documented objections with answers, proof to bring, and what you cannot answer. Explicitly not customer-facing.
+- `campaign-kit` — the marketing-shaped request. Fixes one spine (lead argument, proof point, core phrase, CTA) before writing, then delegates each format to its own skill, then checks the set against itself. Three asset skills run separately produce three assets that disagree.
+- Both wired into `start-here` as the two request shapes most likely to be misrouted.
+
 ## 2026-09-05 (front door)
 - `start-here` — a router skill with a deliberately broad trigger. Turns a vague ask into the right asset by inferring what it can and asking at most three plain-language questions. Never says "motion" — asks "one team, or the whole company?" instead. Raises known gaps (pricing, named competitors) before starting rather than after, and offers the roleplay check on delivery.
 - `.claude/skills/` mirrors all ten plugin skills, kept honest by `scripts/sync-skills.py --check`.
