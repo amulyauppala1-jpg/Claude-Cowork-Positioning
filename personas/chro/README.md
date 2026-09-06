@@ -56,7 +56,7 @@ Laddering: climb from what the product *is* to what it *means* for this buyer.
 |---|---|
 | **1. Feature** | Operates against your written policy, with session-level auditability |
 | **2. Functional benefit** | HR work gets done with a record of how it was done |
-| **3. Business outcome** | Capacity added without adding liability |
+| **3. Business outcome** | Your team gets more done, and nothing new lands on your risk register |
 | **4. What it means for them** | You can say yes to AI without it becoming your risk to carry |
 
 **Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most

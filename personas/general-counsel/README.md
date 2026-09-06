@@ -14,14 +14,19 @@ sourcing: public-research
 
 # General Counsel
 
-> **This file has two readers, and they need opposite things.**
+> **Two modes, and they need opposite things. Establish which one before you
+> write a word.**
 >
-> - **Legal buying for legal** — an economic buyer, and an enthusiastic one.
->   Make a case.
-> - **Legal reviewing someone else's purchase** — a blocker. Pre-answered review
->   material, no pitch. See the second half.
+> **Mode A — buying for legal.** They're the economic buyer, and legal is the
+> heaviest-adopting function in the product. Make a case. Everything through
+> "When they're the blocker" applies.
 >
-> Establish which one you're writing for before you start.
+> **Mode B — reviewing someone else's purchase.** Nobody is selling to them.
+> There is no lead value prop here because there is no pitch: the job is
+> clearing a gate. Skip to "Mode B" below.
+>
+> Mode B is the more common encounter, since a GC touches every other function's
+> deal and only occasionally buys their own.
 
 ## Positioning — value proposition
 
@@ -186,15 +191,25 @@ citation faithfulness · defensibility · retention · work product · matter.
 > Route to the Compliance API proof point in `products/cowork-enterprise.md`.
 > This is also the question they ask on *everyone else's* purchase — see below.
 
-## When the GC is the blocker
+## Mode B — reviewing someone else's purchase
 
-Different document, same person. When another function is buying, the GC is not
-evaluating value — they are looking for reasons to stop, delay, or condition it.
+**Nothing above this line applies.** No value prop leads, because nobody is
+pitching. The GC is not evaluating whether the product is good; they are looking
+for a reason to stop, delay, or condition it. An asset that opens with a benefit
+statement here reads as someone who doesn't understand what the meeting is for.
 
-**What they will ask**, in roughly this order: where data is processed and
-retained; whether content trains a model; what the audit trail looks like;
-whether outputs touch regulated decisions (hiring, pay, credit); and who is
-liable when it's wrong.
+**What they will ask**, in roughly this order, and what satisfies each:
+
+| They ask | What answers it |
+|---|---|
+| Where is data processed and retained? | The Compliance API proof point in `products/cowork-enterprise.md` |
+| Does content train a model? | `TODO(source)` — this repo has no position. Escalate, don't improvise. |
+| What does the audit trail look like? | Session-level records across desktop, web and mobile, same Compliance API |
+| Do outputs touch regulated decisions? | Depends on the function. HR is the exposed one — see `personas/chro/README.md` |
+| Who is liable when it's wrong? | The customer. Say so plainly; a reassuring non-answer fails here. |
+
+**The privilege question also comes up and this repo cannot answer it.** Route to
+counsel rather than guessing.
 
 **How to prepare a champion.** Give them the Compliance API proof point and the
 product's own human-review framing. Tell them plainly that privilege questions

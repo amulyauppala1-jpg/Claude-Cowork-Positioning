@@ -52,7 +52,7 @@ Laddering: climb from what the product *is* to what it *means* for this buyer.
 | Rung | |
 |---|---|
 | **1. Feature** | Configured to your sales motion; runs without a CRM connection |
-| **2. Functional benefit** | Forecasts, pipeline reviews and call prep produced from what the team already has |
+| **2. Functional benefit** | Your forecast and pipeline review, built from what the team already has, with no CRM cleanup first |
 | **3. Business outcome** | Selling time recovered without waiting on reps to change behaviour first |
 | **4. What it means for them** | This is the AI investment that didn’t get quietly abandoned at renewal |
 

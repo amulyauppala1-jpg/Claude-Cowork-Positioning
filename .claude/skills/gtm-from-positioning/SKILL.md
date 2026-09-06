@@ -143,6 +143,12 @@ asset drift into the second.
 3. Business outcome -- the number that moves
 4. What it means for them -- personal stake
 
+**Address the executive, name the team.** Every persona here is an executive
+buying for a department or the whole company, not for themselves. The pattern is
+almost always *your team gets X, which means you get Y*. A line that says only
+"capacity added" hides whose capacity and whose risk, which is the difference
+between a claim a buyer recognises and one they skim past.
+
 **Lead from rung 2 or 3, never rung 1.** Feature-led openings are the most common
 B2B failure: structurally fine, pitched a rung too low. **Rung 4 shapes what you
 emphasise and is rarely said aloud** -- naming someone's personal exposure back
