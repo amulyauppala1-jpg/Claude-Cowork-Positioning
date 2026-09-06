@@ -88,18 +88,16 @@ governing AI spend as a portfolio rather than approving it case by case.
 ## What loses the deal
 
 1. **It looks like a duplicate line item, and they don't control the buying.**
-   The sharpest risk, and the numbers make the case better than the duplication
-   framing did. AI-native app spend grew **393% year over year** in enterprises
-   of 10,000+ people, and **expense-based software spending rose 267%** as tools
-   arrive through credit cards rather than procurement. Business units now
-   control **81% of software spend while IT manages 15%.**
-   > Source: [Zylo, 2026 SaaS Management Index, 29 Jan 2026](https://zylo.com/news/2026-saas-management-index) · tier 2
+   The sharpest risk. **Worker access to AI rose 50% in 2025, and only one in
+   five companies has mature governance for autonomous AI agents.** Adoption
+   outran control, which is the CFO's problem stated by someone else.
+   > Source: [Deloitte, State of AI in the Enterprise 2026](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html) — 3,235 senior leaders, 24 countries, surveyed Aug–Sep 2025 · tier 2
    >
    > **Why this beats a waste statistic.** It doesn't say money is being wasted,
-   > it says the CFO has lost control of where AI gets bought. The
-   > expense-report figure is the useful half: it names the *mechanism* rather
-   > than one popular tool, so it holds regardless of which vendor is winning
-   > this quarter. That is precisely
+   > it says nobody is governing what got bought. That is precisely what one
+   > deployment, one contract and one security review fixes, so the evidence and
+   > the value prop are the same argument. It is also about *agents*
+   > specifically rather than software spend generally, which is our category. That is precisely
    > what "one deployment, one contract, one security review" fixes, so the stat
    > and the value prop are the same argument.
 2. **No attributable financial outcome.** Fewer than a third of decision-makers
