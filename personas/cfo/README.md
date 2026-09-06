@@ -87,13 +87,19 @@ governing AI spend as a portfolio rather than approving it case by case.
 
 ## What loses the deal
 
-1. **It looks like a duplicate line item.** This is the sharpest risk. At median
-   enterprise scale companies run 305 SaaS apps against $55.7M of spend, with
-   51% of licenses unused and ~15% of spend sitting on outright duplicates — and
-   duplicate subscriptions now cost roughly 3x what they did in 2024 because each
-   one stacks an AI surcharge on the base fee. A CFO who files Cowork next to
-   Copilot and ChatGPT Enterprise has already decided.
-   > Source: [Coommit duplicate-SaaS benchmark 2026](https://coommit.com/blog/duplicate-saas-subscriptions-2026-benchmark) · tier 2
+1. **It looks like a duplicate line item, and they don't control the buying.**
+   The sharpest risk, and the numbers make the case better than the duplication
+   framing did. AI-native app spend grew **393% year over year** in enterprises
+   of 10,000+ people. **ChatGPT is now the single most expensed application**,
+   arriving through employee credit cards and expense reports rather than
+   procurement. And **business units control 81% of software spend while IT
+   manages 15%.**
+   > Source: [Zylo, 2026 SaaS Management Index, 29 Jan 2026](https://zylo.com/news/2026-saas-management-index) · tier 2
+   >
+   > **Why this beats a waste statistic.** It doesn't say money is being wasted,
+   > it says the CFO has lost control of where AI gets bought. That is precisely
+   > what "one deployment, one contract, one security review" fixes, so the stat
+   > and the value prop are the same argument.
 2. **No attributable financial outcome.** Fewer than a third of decision-makers
    can point to a specific financial result from their AI investments. The ask
    isn't "will this help" — it's "what number moves, and when."
@@ -237,7 +243,7 @@ reads as peer-level. (Source: [Gordon Pothier, CFO of Board, Bloomberg Businessw
 ## Objections
 
 **"We already pay for Copilot and ChatGPT Enterprise. Why is this a third line item?"**
-> Source: [Coommit duplicate-SaaS benchmark 2026](https://coommit.com/blog/duplicate-saas-subscriptions-2026-benchmark); [CloudEagle on managing Copilot/ChatGPT/Gemini together](https://www.cloudeagle.ai/blogs/manage-copilot-chatgpt-enterprise-and-gemini-from-one-place) · confidence: public research
+> Source: [Zylo, 2026 SaaS Management Index, 29 Jan 2026](https://zylo.com/news/2026-saas-management-index) · confidence: public research
 > **Answer with `vp-coverage`.** Don't argue Cowork is better — argue it's fewer.
 
 **"Show me the ROI. Our last AI initiative never produced a number."**
@@ -263,7 +269,10 @@ reads as peer-level. (Source: [Gordon Pothier, CFO of Board, Bloomberg Businessw
 > reduced hiring without defensible math — see vocabulary.
 
 **"What happens to this cost when usage grows?"**
-> Source: [Gordon Pothier, CFO of Board, Bloomberg Businessweek Daily, Aug 2026](https://www.youtube.com/watch?v=jQ3DKTDMFx4) · confidence: primary source (named, on record, n=1)
+> Source: [Zylo, 2026 SaaS Management Index, 29 Jan 2026](https://zylo.com/news/2026-saas-management-index) — **78% of IT leaders report unexpected charges tied to
+> consumption-based or AI pricing, and 61% had to cut projects over unplanned
+> SaaS cost increases** (survey of 218 IT leaders) · tier 2. Corroborated by
+> [Gordon Pothier, CFO of Board, Bloomberg Businessweek Daily, Aug 2026](https://www.youtube.com/watch?v=jQ3DKTDMFx4) · primary source, n=1
 > Pothier frames it as not wanting a dependency with "cost to go out of control
 > later on," and describes tracking token usage at a functional level.
 > **The most dangerous objection for an agentic product specifically.** Agents
