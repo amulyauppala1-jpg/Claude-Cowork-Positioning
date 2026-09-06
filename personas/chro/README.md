@@ -160,7 +160,7 @@ they are accountable for.
 - **"Headcount," "FTE savings," "do more with less," "reduce reliance on staff."**
   The most dangerous vocabulary in this repo. See above.
 - **"Automate HR."** HR's defensibility rests on documented human judgment.
-  Automation language attacks the thing they most need to preserve.
+  Automation language tests the thing they most need to preserve.
 - **"Replace recruiters / screen candidates automatically."** Straight into the
   Amazon precedent.
 - **"Employee monitoring"** or anything adjacent. Different product category,

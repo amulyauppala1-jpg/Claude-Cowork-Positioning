@@ -19,7 +19,7 @@ cloning anything, editing markdown, or asking the person who maintains it.
 | `pitch-and-narrative-deck` | 3–8 slide narrative, as HTML slides |
 | `deal-prep` | A briefing for a specific meeting — not something to send |
 | `campaign-kit` | A coordinated set that all leads with the same argument |
-| `roleplay-tester` | Attacks a draft in character. Run before anything ships |
+| `roleplay-tester` | Role-plays the buyer to test a draft. Run before anything ships |
 | `sales-outreach-sequence` | Multi-touch 1:1 outreach cadence |
 
 **If you don't know where to start, just say so.** Something like *"I need to
@@ -47,7 +47,7 @@ rather than a content mill:
   persona files — the champion's for vocabulary, the approver's for decision
   criteria — and is written in their voice with no brand styling, because
   anything that looks like vendor material can't be forwarded.
-- **`roleplay-tester`** attacks a draft in character using the persona's
+- **`roleplay-tester`** role-plays the buyer to test a draft using the persona's
   documented objections, after six mechanical PASS/FAIL checks. It's how anyone
   can verify an asset without the person who built the repo.
 

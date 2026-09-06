@@ -276,7 +276,7 @@ reads as peer-level. (Source: [Gordon Pothier, CFO of Board, Bloomberg Businessw
 > Pothier frames it as not wanting a dependency with "cost to go out of control
 > later on," and describes tracking token usage at a functional level.
 > **The most dangerous objection for an agentic product specifically.** Agents
-> consume far more than chat, so this buyer's instinct is correct. It attacks
+> consume far more than chat, so this buyer's instinct is correct. It tests
 > forecast accuracy — a number they're measured on — not just budget size.
 > No content in this repo answers it.
 >

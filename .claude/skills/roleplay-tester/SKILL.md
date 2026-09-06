@@ -1,8 +1,8 @@
 ---
 name: roleplay-tester
 description: >-
-  Stress-tests a draft GTM asset by role-playing the target buyer persona and
-  attacking it with their documented objections and vocabulary. Use when asked to
+  Tests a draft GTM asset by role-playing the target buyer and pushing back with
+  their documented objections and vocabulary. Use when asked to
   test, review, pressure-test, critique, or "check if this is on-positioning," or
   before an asset goes out.
 ---
@@ -53,7 +53,7 @@ a CFO enterprise-wide and comes last for a CMO buying for their own function.
 
 ## Step 4 — What this skill is for
 
-Everything else here generates. **This one tries to break what was generated.**
+Everything else here generates. **This one reads it back as the buyer would.**
 It is the check that makes the system trustworthy rather than merely productive:
 it can be run on any asset, by anyone, without the person who built the repo.
 

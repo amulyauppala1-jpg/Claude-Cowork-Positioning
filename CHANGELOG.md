@@ -28,7 +28,7 @@
 ## 2026-09-05 (plugin skills)
 - Nine skills: `persona-one-pager`, `landing-page`, `pitch-and-narrative-deck`, `campaign-email`, `sales-outreach-sequence`, `blog-post`, `competitive-battlecard`, `internal-champion-pitch`, `roleplay-tester`.
 - `internal-champion-pitch` composes two persona files — the champion's for voice, the approver's for decision criteria — and carries no brand styling, since vendor-looking material can't be forwarded.
-- `roleplay-tester` runs six mechanical PASS/FAIL checks then attacks the draft in character. This is the trust instrumentation.
+- `roleplay-tester` runs six mechanical PASS/FAIL checks then role-plays the buyer to test the draft. This is the trust instrumentation.
 - `competitive-battlecard` documents a real gap: the repo has category-level differentiation but no `competitors/` layer, so named-competitor cards can't be built without inventing content.
 
 ## 2026-09-05 (system layer)

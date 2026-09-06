@@ -30,7 +30,7 @@ flowchart TB
         SH["<b>start-here</b><br/>routes a vague ask"]
         A["assets<br/>one-pager · landing · deck<br/>email · sequence · blog<br/>battlecard · champion"]
         SP["shapes<br/>deal-prep · campaign-kit"]
-        T["<b>roleplay-tester</b><br/>attacks the draft"]
+        T["<b>roleplay-tester</b><br/>role-plays the buyer against the draft"]
         SH --> A & SP --> T
     end
 
@@ -87,7 +87,7 @@ still can't produce an ungrounded claim.
 | **`check-refs.py`** | Fails if a persona cites a value prop slug that doesn't exist. The link to the foundation can't silently rot. |
 | **`check-sources.py`** | Fails on any figure without a citation nearby. It found nine uncited blocks on first run, including one in a file I'd assumed was clean. |
 | **`sync-skills.py`** | Fails if the two skill copies diverge. Where duplication is unavoidable, it's enforced rather than remembered. |
-| **`roleplay-tester`** | Six PASS/FAIL checks — value prop order *for the stated motion*, banned vocabulary, proof traceability, invented claims, status flagging, motion fit — then attacks the draft in character. Anyone can run it without me. |
+| **`roleplay-tester`** | Six PASS/FAIL checks — value prop order *for the stated motion*, banned vocabulary, proof traceability, invented claims, status flagging, motion fit — then role-plays the buyer to test the draft. Anyone can run it without me. |
 | **Source tiers** | First-party Anthropic > independent research > aggregated write-ups > practitioner accounts. Every figure names its tier. Where only a weak tier exists, claims are stated directionally — the direction is reliable, the decimal places aren't. |
 
 Four rules sit above those, all learned by getting them wrong first:
