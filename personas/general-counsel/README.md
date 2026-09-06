@@ -36,24 +36,24 @@ sourcing: public-research
 > **that** triages and reviews clause by clause against that playbook, with
 > attorney review preserved.
 
-> ⚠ **This differentiation is weaker than it looks, and the framework caught it.**
-> The `Unlike` below answers a *general* assistant pointed at contract review. It
-> does not answer a purpose-built legal AI tool, which is neither generic nor
-> inferring a standard: those products also run against the customer's playbook.
-> A GC asking "how does this compare" is almost always thinking of the
-> purpose-built category, not of someone pasting a contract into a chat window.
+> **The differentiation is not "we beat the point tools." It's that we connect to
+> them.** Anthropic ships MCP connectors for Harvey, Ironclad, iManage,
+> NetDocuments, Docusign and 20+ more across contract lifecycle, data rooms,
+> e-discovery and research. A GC asking "how does this compare to Harvey" is
+> asking the wrong question, and the right answer is that Harvey plugs in.
 >
-> `TODO(source)`: this is a real positioning gap, not a wording problem. Closing
-> it needs a `competitors/` layer and an honest answer on where Cowork wins
-> against a category-specific tool. Until then, say the comparison is one we
-> haven't published rather than reaching for the generic contrast.
+> Position Cowork as the layer across the legal stack, not a replacement for
+> whatever already sits in it. That is both honest and stronger than a head-to-head
+> claim we could not defend.
+> Source: [Claude for the legal industry, 12 May 2026](https://claude.com/blog/claude-for-the-legal-industry) · tier 1
 
 ## Positioning — differentiation
 
-> **Unlike** generic AI review applying a standard it inferred rather than the
-> one you set
-> **Cowork provides** analysis against your playbook, with the human-review
-> boundary stated rather than glossed.
+> **Unlike** point tools that each own one slice of legal work and leave the team
+> switching between them
+> **Cowork provides** one layer across the stack a firm already has — connecting
+> to its document management, contract lifecycle and research tools — so the
+> playbook applies everywhere rather than inside a single product.
 
 > Structured to Geoffrey Moore's framework. It narrows the function-agnostic
 > statement in `products/cowork-enterprise.md` — it does not replace or
@@ -175,17 +175,22 @@ citation faithfulness · defensibility · retention · work product · matter.
 ## Objections
 
 **"How much work is it to get our playbook in?"**
-> `TODO(source)` — **the load-bearing question for this buyer, and the repo has
-> no answer.** Configuration is the product for legal, which makes setup effort
-> the thing they press hardest on. A competitor has publicly criticised exactly
-> this as a cold-start cost. Until there is real onboarding content, say the
-> honest thing: the playbook has to go in, that is the work, and here is roughly
-> what it involves. Do not wave it away.
+> Source: [Claude for the legal industry, 12 May 2026](https://claude.com/blog/claude-for-the-legal-industry) · tier 1
+> **Answered.** Every plugin opens with a short setup interview that learns the
+> practice: the playbook, the escalation chain, the risk calibration, the house
+> style. Twelve pre-built practice-area plugins mean nobody starts from an empty
+> file. Teams then layer their own precedents and playbooks on top.
+> Don't oversell it as zero-effort. The setup is the work, and saying so is what
+> makes the rest credible.
 
 **"How does this compare to purpose-built legal AI?"**
-> See the warning at the top of this file. The `Unlike` line does not answer
-> this, and repeating a competitor's benchmark claims is out per the sourcing
-> rules. `TODO(source)`: needs a `competitors/` layer.
+> Source: [Claude for the legal industry, 12 May 2026](https://claude.com/blog/claude-for-the-legal-industry) · tier 1
+> **The answer is that it connects to them.** Harvey, Ironclad, iManage,
+> NetDocuments, Docusign and 20+ more ship as MCP connectors. This is not a
+> head-to-head comparison and shouldn't be framed as one. Cowork is the layer
+> across the stack; the point tools stay where they are.
+> Note this is naming an *integration partner*, not a competitor, so the
+> internal-only rule in `brand/README.md` does not apply here.
 
 **"What is the privilege posture for work done here?"**
 > A standard question from this desk, and this repo has no content on it.
