@@ -67,6 +67,29 @@ anything here. "Efficiency" is neutral in general and actively dangerous with a
 CHRO. When this file and a persona file disagree, **the persona wins**, same
 precedence as `products/` over `personas/` on matters of fact.
 
+### Competitor names
+
+**Internal enablement: name them.** A seller needs to know what they are actually
+up against, and a stat loses its force when the subject is anonymised. Persona
+files, deal prep and battlecards are internal, so Copilot, ChatGPT and the rest
+appear by name.
+
+**Customer-facing: strip them.** No competitor name belongs in a landing page,
+ad, email, deck or blog post of ours. A prospect will raise the comparison
+themselves, and answering it is different from introducing it.
+
+The line worth holding: **reporting what a buyer says or what the market does is
+not the same as making a claim of our own.** "We already pay for Copilot and
+ChatGPT" is the buyer's sentence and belongs in a persona's objections. "Unlike
+ChatGPT, Cowork..." is our sentence and does not belong anywhere external.
+
+When a sourced statistic names a competitor, keep the name internally and
+generalise it externally. *"ChatGPT is now the most expensed application"* becomes
+*"the most expensed application is now an AI assistant"* with no loss of argument.
+
+> This sits with `brand/` rather than a persona because it applies to every
+> asset regardless of buyer.
+
 ---
 
 ## Visual system

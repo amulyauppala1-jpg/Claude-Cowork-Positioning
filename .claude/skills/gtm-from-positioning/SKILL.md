@@ -89,6 +89,13 @@ Reach down the list only for what the tier above doesn't cover, and say which
 tier a figure came from. A community-contributed skill or template is **not**
 first-party evidence -- it shows what someone built, not what the product ships.
 
+**Competitor names are internal-only.** Persona files, deal prep and battlecards
+name them, because a seller needs to know what they're up against. Anything
+customer-facing -- landing pages, ads, emails, decks, blog posts -- does not.
+When a sourced statistic names a competitor, generalise it for external use: "the
+most expensed application is now an AI assistant" carries the same argument
+without the name. See `brand/README.md`.
+
 **Don't propagate a competitor's factual claims.** Marketing from a competing
 vendor is not a source. Its benchmark figures are unaudited self-comparisons, and
 its assertions about our product come from a party with an interest in them being
