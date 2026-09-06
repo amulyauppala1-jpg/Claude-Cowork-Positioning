@@ -75,7 +75,7 @@ Two of the four capabilities in the HR plugin — **performance review** and
 bias in performance systems, and pay equity. The other two, **onboarding** and
 **policy guidance**, are comparatively low-risk.
 
-**Lead with onboarding and policy guidance.** The impressive-sounding features
+**Demo onboarding and policy work, not performance reviews or comp.** The impressive-sounding features
 are the ones most likely to trigger this buyer's governance objection before you
 have earned the right to answer it. This is the opposite of the instinct for
 every other persona in this repo, where you lead with the most powerful thing.

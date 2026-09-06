@@ -49,11 +49,11 @@ sourcing: public-research
 
 ## Positioning — differentiation
 
-> **Unlike** point tools that each own one slice of legal work and leave the team
-> switching between them
-> **Cowork provides** one layer across the stack a firm already has — connecting
-> to its document management, contract lifecycle and research tools — so the
-> playbook applies everywhere rather than inside a single product.
+> **Unlike** point tools that each cover one slice of legal work and leave the
+> team switching between them
+> **Cowork provides** a single workspace that sits over the tools the firm
+> already runs — document management, contract lifecycle, research — so the
+> playbook applies across all of them instead of inside one product.
 
 > Structured to Geoffrey Moore's framework. It narrows the function-agnostic
 > statement in `products/cowork-enterprise.md` — it does not replace or
