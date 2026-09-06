@@ -36,6 +36,18 @@ sourcing: public-research
 > **that** triages and reviews clause by clause against that playbook, with
 > attorney review preserved.
 
+> ⚠ **This differentiation is weaker than it looks, and the framework caught it.**
+> The `Unlike` below answers a *general* assistant pointed at contract review. It
+> does not answer a purpose-built legal AI tool, which is neither generic nor
+> inferring a standard: those products also run against the customer's playbook.
+> A GC asking "how does this compare" is almost always thinking of the
+> purpose-built category, not of someone pasting a contract into a chat window.
+>
+> `TODO(source)`: this is a real positioning gap, not a wording problem. Closing
+> it needs a `competitors/` layer and an honest answer on where Cowork wins
+> against a category-specific tool. Until then, say the comparison is one we
+> haven't published rather than reaching for the generic contrast.
+
 ## Positioning — differentiation
 
 > **Unlike** generic AI review applying a standard it inferred rather than the
@@ -161,6 +173,19 @@ citation faithfulness · defensibility · retention · work product · matter.
   credibility than claiming it away.
 
 ## Objections
+
+**"How much work is it to get our playbook in?"**
+> `TODO(source)` — **the load-bearing question for this buyer, and the repo has
+> no answer.** Configuration is the product for legal, which makes setup effort
+> the thing they press hardest on. A competitor has publicly criticised exactly
+> this as a cold-start cost. Until there is real onboarding content, say the
+> honest thing: the playbook has to go in, that is the work, and here is roughly
+> what it involves. Do not wave it away.
+
+**"How does this compare to purpose-built legal AI?"**
+> See the warning at the top of this file. The `Unlike` line does not answer
+> this, and repeating a competitor's benchmark claims is out per the sourcing
+> rules. `TODO(source)`: needs a `competitors/` layer.
 
 **"What is the privilege posture for work done here?"**
 > A standard question from this desk, and this repo has no content on it.
