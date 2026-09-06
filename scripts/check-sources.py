@@ -5,6 +5,12 @@ A number without a traceable source is the failure mode this repo exists to
 prevent: it reads as established, gets lifted into an asset, and nobody can
 find where it came from. This finds them. Run alongside check-refs.py.
 
+LIMIT, and it matters: this proves a citation is PRESENT near a figure. It does
+not and cannot prove the figure appears in the cited page. A number lifted from
+a search-result summary and attributed to a page that never contained it passes
+this check cleanly. Verifying that is the writer's job -- see the sourcing rules
+in .claude/skills/gtm-from-positioning/SKILL.md.
+
 Heuristic: split each file into blocks on blank lines. A block containing a
 figure must have a source marker in itself or the block immediately after.
 """

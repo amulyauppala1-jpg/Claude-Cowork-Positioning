@@ -111,15 +111,17 @@ pitch reads as the fourth vendor this quarter making the same promise.
 
 This buyer is materially more exposed than the CFO, and it changes the tone.
 
-- CMO tenure at S&P 500 firms has fallen to **4.1 years**.
-- Board pressure on CMOs rose **21%** from 2023 to 2025; pressure specifically
-  from the **CFO rose 52%**.
-- **62%** say missing 2026 growth expectations results in budget cuts.
-- **70%** say becoming an AI leader is a critical 2026 goal, while only **30%**
-  report mature AI readiness.
+- **69% of marketing leaders say leadership now expects fully quantifiable
+  results for everything the department does, up from 59% in 2023.** The
+  accountability bar moved, and fast.
+- Only **30%** report being ready to scale AI capabilities, against **15.3%** of
+  budget already committed to it.
+- Marketing budgets are widely reported as flat or falling as a share of
+  revenue, and missing growth targets is widely reported to trigger cuts.
+  Stated directionally: see the sourcing note.
 
-> Sources: tenure and pressure figures — [CMSWire, CMO survival guide 2026](https://www.cmswire.com/digital-marketing/why-the-cmo-job-is-being-rewritten-in-real-time-and-how-to-land-on-the-right-side/) · tier 2.
-> AI-leadership and readiness figures — [Gartner 2026 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities) · tier 2.
+> Accountability figure: [CMSWire, *State of the CMO* 2025, 500+ marketing leaders](https://www.cmswire.com/digital-marketing/why-the-cmo-job-is-being-rewritten-in-real-time-and-how-to-land-on-the-right-side/) · tier 2, read on the page.
+> Budget and readiness figures: [Gartner 2026 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities) · tier 2. **15.3% and 30% appear in the release title**, so they are safe to quote. Other figures attributed to this survey in secondary coverage could not be read on the primary page (Gartner blocks automated access), so they are stated directionally above rather than quoted.
 
 They are being asked to lead on AI, judged on it, and are not resourced for it.
 That gap is the emotional center of this persona. An asset that helps them look
@@ -247,7 +249,8 @@ CMO can actually carry upward, and rules out the metric most AI tools lead with.
 A named deliverable their team currently pays for or can't get to, produced
 end-to-end, with an attribution story their CFO will accept. Note the second
 half: this buyer is increasingly selling *upward* even in a departmental motion,
-because CFO pressure on marketing rose 52% ([CMSWire, CMO survival guide 2026](https://www.cmswire.com/digital-marketing/why-the-cmo-job-is-being-rewritten-in-real-time-and-how-to-land-on-the-right-side/) · tier 2).
+because the share of marketing leaders whose leadership expects fully
+quantifiable results rose from 59% to 69% between 2023 and 2025 ([CMSWire, *State of the CMO* 2025, 500+ marketing leaders](https://www.cmswire.com/digital-marketing/why-the-cmo-job-is-being-rewritten-in-real-time-and-how-to-land-on-the-right-side/) · tier 2).
 
 > TODO(source): no `pricing/` content. Less blocking than for the CFO — a
 > departmental buy clears at a lower threshold — but still unanswerable.

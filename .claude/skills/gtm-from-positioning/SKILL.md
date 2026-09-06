@@ -103,6 +103,16 @@ true. Recording such a claim even as an open question puts it in front of every
 future reader -- leave it out. Reference competitor *framing* generically where
 useful (the argument they make), never their figures or factual assertions.
 
+**Only quote a figure you have read on the page you are citing.** A search
+result's summary is not the source; it paraphrases, merges pages, and sometimes
+attributes a number to a page that does not contain it. Open the page. If it
+can't be opened -- paywalls and bot blocks are common with analyst firms -- then
+either quote only what appears in the title or headline, or state the claim
+directionally and say why. Never cite a page for a number you have not seen on it.
+
+`check-sources.py` cannot catch this. It proves a citation is *present*, not that
+the figure is *in* the cited page, so this one is on the writer.
+
 **Never write down an unverified number, even to warn against it.** If a figure
 cannot be traced to a dated, citable source, delete it. Do not park it behind a
 "do not use" label -- the number stays in the file, and the next person to skim
