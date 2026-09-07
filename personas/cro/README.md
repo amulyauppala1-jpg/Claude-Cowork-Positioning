@@ -26,14 +26,13 @@ sourcing: public-research
 > **that need** tooling shaped around how their team already sells
 > **Cowork** **is an** agentic workspace configured to the sales motion
 > **that** produces forecasts, pipeline reviews and call prep from the material
-> the team already has — including with no CRM connection.
+> the team already has — including when the CRM isn't connected.
 
 ## Positioning — differentiation
 
-> **Unlike** sales AI that requires reps to change behaviour before it returns
-> anything
-> **Cowork provides** value in the leader's own hands on day one, independent
-> of rep adoption.
+> **Unlike** sales AI whose payoff depends on reps adopting it first
+> **Cowork provides** the first output in the leader's own hands, independent of
+> rep adoption.
 
 > Structured to Geoffrey Moore's framework. It narrows the function-agnostic
 > statement in `products/cowork-enterprise.md` — it does not replace or

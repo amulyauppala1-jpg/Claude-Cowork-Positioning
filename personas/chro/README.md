@@ -98,10 +98,12 @@ every other persona in this repo, where you lead with the most powerful thing.
 ## What loses the deal
 
 1. **Anything that sounds like headcount reduction.** This is not squeamishness.
-   Reporting indicates a large majority of boards are planning AI-driven
-   workforce reductions, which means the CHRO is already being asked to execute
-   them. Positioning Cowork as a headcount play either makes them the villain or
-   makes you sound like you're recruiting them into it. Promise **capacity**.
+   Boards are already pressing CHROs on headcount, so this language puts you
+   inside a conversation they are already having. Reporting indicates a large
+   majority of boards are planning AI-driven workforce reductions, which means
+   the CHRO is already being asked to execute them. Positioning Cowork as a
+   headcount play either makes them the villain or makes you sound like you're
+   recruiting them into it. Promise **capacity**.
 2. **Unowned liability.** Employers remain liable for discriminatory outputs from
    third-party AI vendors. The vendor's compliance posture does not transfer the
    risk — it stays with the employer. A CHRO knows this and will not accept

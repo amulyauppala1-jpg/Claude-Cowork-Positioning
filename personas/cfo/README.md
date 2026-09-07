@@ -243,8 +243,9 @@ relied on. Capability framing reads as naive to this buyer; judgment framing
 reads as peer-level. (Source: [Gordon Pothier, CFO of Board, Bloomberg Businessweek Daily, Aug 2026](https://www.youtube.com/watch?v=jQ3DKTDMFx4))
 
 **Avoid:**
-- **"Productivity"** unqualified. Burned word. Every AI vendor has used it, and
-  it's the exact claim the ROI data has failed to substantiate.
+- **"Productivity"** unqualified. Burned word. Their last AI project was sold on
+  it and didn't produce a number, which is the exact claim the ROI data has
+  failed to substantiate.
 - **"Efficiency" without a number.** Reads as a dodge.
 - **"Transformation."** Reads as expensive and slow.
 - **Headcount-reduction framing.** Not for the CHRO's reasons — a CFO will simply
