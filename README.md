@@ -32,7 +32,7 @@ personas/
     README.md     README.md     README.md     README.md    README.md
   _TEMPLATE.md                   Start here for a new persona
 brand/README.md                  Voice, tone, colors, logos
-plugin/                          Installable Cowork plugin — 12 skills, entry point is start-here
+plugin/                          Installable Cowork plugin — 13 skills, entry point is cowork-positioning
 .claude/skills/                  Same skills, auto-loaded on clone — kept in sync by script
 scripts/                         Integrity checks and the bundle builder
 dist/                            Built .zip skill — one upload, nothing to connect
@@ -104,6 +104,23 @@ is the path to use.
 the Cowork positioning"* and the `start-here` skill works out the rest — who the
 audience is, what they need, and whether it's a one-team or company-wide
 purchase — in plain language. No file names, no jargon, nobody to ask.
+
+**Upload one file** — the path for someone who will never open GitHub:
+
+Download `plugin/skills/cowork-positioning/SKILL.md` and upload it to Cowork as
+a skill. That one file is the whole front door. It reads the repo over its
+public raw URL at request time, and fetches whichever asset skill the request
+needs, so:
+
+- Nothing to install beyond the single upload, and no connector required.
+- **It cannot go stale.** Change the positioning here and the next request picks
+  it up. The uploaded file is a pointer, not a copy.
+
+Raw link:
+`https://raw.githubusercontent.com/amulyauppala1-jpg/Claude-Cowork-Positioning/main/plugin/skills/cowork-positioning/SKILL.md`
+
+This is the path to demo, because it is the one a campaign manager would
+actually take.
 
 **Install as a plugin** — for people who shouldn't have to clone anything:
 
