@@ -59,6 +59,19 @@ Get Cowork for your team
 
 ## Value props and reasons to believe
 
+The headings below are the internal names. The right-hand column is how each one
+is said in a customer-facing asset — personas and skills use these, so a change
+here changes every asset downstream.
+
+| Slug | Internal heading | Say it like this |
+|---|---|---|
+| `vp-coverage` | One deployment covers everyone | **Covers every team** |
+| `vp-executes` | Agent that executes, not just answers | **Work comes back finished** |
+| `vp-configured` | Configured for how your org works | **Set up for how your team works** |
+
+These are shorthand for ranking, not opening lines. The sentence a seller
+actually says lives under **The opening line** in each persona file.
+
 ### 1. Agent that executes, not just answers {#vp-executes}
 Assign Cowork a task and it handles research, analysis, documentation and reporting autonomously while your team focuses on higher-value work.
 - **RTB:** Multi-step execution without hand-holding — Claude handles the whole chain in the background, not just one step, and delivers high-quality outputs. Scheduled tasks let teams set recurring work once and have it delivered automatically.

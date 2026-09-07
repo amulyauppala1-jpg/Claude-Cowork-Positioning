@@ -7,7 +7,7 @@ roles_by_motion:
   enterprise: champion           # and unusually, a stakeholder in their own right — see below
 applies_to: [cowork-enterprise]
 owner: TBD
-last_updated: 2026-09-05
+last_updated: 2026-09-06
 status: draft
 sourcing: public-research
 ---
@@ -48,25 +48,35 @@ sourcing: public-research
 > from customer interviews. The framework organizes insight; it does not create
 > it, so treat these as a hypothesis to test against real buyers.
 
+## The opening line
+
+**Lead with:** "Your team gets more done, and nothing new lands on your risk register."
+
+**Don't open with:** "Operates against your written policy with session-level auditability."
+That is how it works. Lead with what it keeps off their risk register.
+
+> This is the sentence to say out loud. The ladder below is the reasoning
+> behind it, not a script.
+
 ## The ladder
 
 Laddering: climb from what the product *is* to what it *means* for this buyer.
 
-| Rung | |
+| | |
 |---|---|
-| **1. Feature** | Operates against your written policy, with session-level auditability |
-| **2. Functional benefit** | HR work gets done with a record of how it was done |
-| **3. Business outcome** | Your team gets more done, and nothing new lands on your risk register |
-| **4. What it means for them** | You can say yes to AI without it becoming your risk to carry |
+| **What it is** | Operates against your written policy, with session-level auditability |
+| **What it does** | HR work gets done with a record of how it was done |
+| **What it's worth** | Your team gets more done, and nothing new lands on your risk register |
+| **What it means for them** | You can say yes to AI without it becoming your risk to carry |
 
-**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
-common failure in B2B copy, and it is structurally fine — it just argues at the
-wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
-conversation lives.
+**Open with what it does, or what it's worth. Never with what it is.** A
+feature-led opening is the most common failure in B2B copy, and it is
+structurally fine — it just argues at the wrong altitude. "What it's worth" is
+where a business case lives; "what it does" is where a first conversation lives.
 
-**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
-personal exposure back to them reads as manipulative and costs you the room.
-Use it to decide what to lead with, not as a line in the asset.
+**"What it means for them" shapes emphasis and is rarely said out loud.** Naming
+a buyer's personal exposure back to them reads as manipulative and costs you the
+room. Use it to decide what to lead with, not as a line in the asset.
 
 ## The one thing to get right
 

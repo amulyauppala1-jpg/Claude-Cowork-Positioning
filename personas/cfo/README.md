@@ -8,7 +8,7 @@ roles_by_motion:
   enterprise: economic_buyer           # owns the budget and the decision org-wide
 applies_to: [cowork-enterprise]
 owner: TBD
-last_updated: 2026-09-05
+last_updated: 2026-09-06
 status: draft
 sourcing: public-research   # public-research | connector-sourced | synthetic-mixed
 ---
@@ -60,25 +60,36 @@ sourcing: public-research   # public-research | connector-sourced | synthetic-mi
 > from customer interviews. The framework organizes insight; it does not create
 > it, so treat these as a hypothesis to test against real buyers.
 
+## The opening line
+
+**Lead with:** "Your AI spend becomes one predictable line instead of something that
+grows every time a team buys a tool."
+
+**Don't open with:** "One deployment, one contract, one security review." That describes the
+product. It doesn't tell a CFO what changes for them.
+
+> This is the sentence to say out loud. The ladder below is the reasoning
+> behind it, not a script.
+
 ## The ladder
 
 Laddering: climb from what the product *is* to what it *means* for this buyer.
 
-| Rung | |
+| | |
 |---|---|
-| **1. Feature** | One deployment, one contract, one security review |
-| **2. Functional benefit** | The AI tools you already pay for get consolidated instead of joined |
-| **3. Business outcome** | AI run-rate becomes a single predictable line rather than a growing set |
-| **4. What it means for them** | You are the CFO who got AI spend under control — not the one who approved four overlapping subscriptions |
+| **What it is** | One deployment, one contract, one security review |
+| **What it does** | The AI tools you already pay for get consolidated instead of joined |
+| **What it's worth** | AI run-rate becomes a single predictable line rather than a growing set |
+| **What it means for them** | You are the CFO who got AI spend under control — not the one who approved four overlapping subscriptions |
 
-**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
-common failure in B2B copy, and it is structurally fine — it just argues at the
-wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
-conversation lives.
+**Open with what it does, or what it's worth. Never with what it is.** A
+feature-led opening is the most common failure in B2B copy, and it is
+structurally fine — it just argues at the wrong altitude. "What it's worth" is
+where a business case lives; "what it does" is where a first conversation lives.
 
-**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
-personal exposure back to them reads as manipulative and costs you the room.
-Use it to decide what to lead with, not as a line in the asset.
+**"What it means for them" shapes emphasis and is rarely said out loud.** Naming
+a buyer's personal exposure back to them reads as manipulative and costs you the
+room. Use it to decide what to lead with, not as a line in the asset.
 
 ## What they own
 Budget authority over the line item, and the renewal. In 2026 the role has

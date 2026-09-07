@@ -7,7 +7,7 @@ roles_by_motion:
   enterprise: champion           # CFO/CIO signs; CRO supplies demand and the pipeline case
 applies_to: [cowork-enterprise]
 owner: TBD
-last_updated: 2026-09-05
+last_updated: 2026-09-06
 status: draft
 sourcing: public-research
 ---
@@ -45,25 +45,36 @@ sourcing: public-research
 > from customer interviews. The framework organizes insight; it does not create
 > it, so treat these as a hypothesis to test against real buyers.
 
+## The opening line
+
+**Lead with:** "Your forecast and pipeline review, built from what the team already has,
+with no CRM cleanup first."
+
+**Don't open with:** "Configured to your sales motion." That is a product setting. Lead with what
+it produces, which is the forecast, without the cleanup first.
+
+> This is the sentence to say out loud. The ladder below is the reasoning
+> behind it, not a script.
+
 ## The ladder
 
 Laddering: climb from what the product *is* to what it *means* for this buyer.
 
-| Rung | |
+| | |
 |---|---|
-| **1. Feature** | Configured to your sales motion; runs without a CRM connection |
-| **2. Functional benefit** | Your forecast and pipeline review, built from what the team already has, with no CRM cleanup first |
-| **3. Business outcome** | Selling time recovered without waiting on reps to change behaviour first |
-| **4. What it means for them** | This is the AI investment that didn’t get quietly abandoned at renewal |
+| **What it is** | Configured to your sales motion; runs without a CRM connection |
+| **What it does** | Your forecast and pipeline review, built from what the team already has, with no CRM cleanup first |
+| **What it's worth** | Selling time recovered without waiting on reps to change behaviour first |
+| **What it means for them** | This is the AI investment that didn’t get quietly abandoned at renewal |
 
-**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
-common failure in B2B copy, and it is structurally fine — it just argues at the
-wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
-conversation lives.
+**Open with what it does, or what it's worth. Never with what it is.** A
+feature-led opening is the most common failure in B2B copy, and it is
+structurally fine — it just argues at the wrong altitude. "What it's worth" is
+where a business case lives; "what it does" is where a first conversation lives.
 
-**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
-personal exposure back to them reads as manipulative and costs you the room.
-Use it to decide what to lead with, not as a line in the asset.
+**"What it means for them" shapes emphasis and is rarely said out loud.** Naming
+a buyer's personal exposure back to them reads as manipulative and costs you the
+room. Use it to decide what to lead with, not as a line in the asset.
 
 ## The opening position — and it's a third distinct one
 

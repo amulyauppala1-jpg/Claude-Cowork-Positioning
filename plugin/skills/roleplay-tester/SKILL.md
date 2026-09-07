@@ -75,8 +75,9 @@ do not require judgment:
 5. **Status** — if the positioning file is `draft`, does the asset say so?
 6. **Motion fit** — an `economic_buyer` asset should handle objections in the
    body; a `champion` asset must be forwardable and not read as vendor material.
-7. **Altitude** — does it open on a feature (rung 1)? The lead should sit at
-   rung 2 or 3 of the persona's ladder. Quote the opening line and name its rung.
+7. **Altitude** — does it open on a feature, on what the product *is*? The lead
+   should say what it does or what it's worth. Quote the opening line and name
+   which of the four it lands on.
 8. **Positioning anti-patterns** — is any claim a tagline, a feature list, a
    generic line that would fit any product, or aspirational fluff with no
    specifics? Quote it. "For businesses that need efficiency" fails; so does

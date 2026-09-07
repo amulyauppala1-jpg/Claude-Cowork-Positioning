@@ -166,10 +166,10 @@ almost always *your team gets X, which means you get Y*. A line that says only
 "capacity added" hides whose capacity and whose risk, which is the difference
 between a claim a buyer recognises and one they skim past.
 
-**Lead from rung 2 or 3, never rung 1.** Feature-led openings are the most common
-B2B failure: structurally fine, pitched a rung too low. **Rung 4 shapes what you
-emphasise and is rarely said aloud** -- naming someone's personal exposure back
-to them reads as manipulative.
+**Open with what it does or what it's worth, never with what it is.** Feature-led
+openings are the most common B2B failure: structurally fine, pitched one level
+too low. **"What it means for them" shapes what you emphasise and is rarely said
+aloud** -- naming someone's personal exposure back to them reads as manipulative.
 
 Four things a positioning claim is not, all easy to slip into:
 

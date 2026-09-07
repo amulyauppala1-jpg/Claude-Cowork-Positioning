@@ -7,7 +7,7 @@ roles_by_motion:
   enterprise: blocker            # gates every other function's purchase on data handling
 applies_to: [cowork-enterprise]
 owner: TBD
-last_updated: 2026-09-05
+last_updated: 2026-09-06
 status: draft
 sourcing: public-research
 ---
@@ -65,25 +65,35 @@ sourcing: public-research
 > from customer interviews. The framework organizes insight; it does not create
 > it, so treat these as a hypothesis to test against real buyers.
 
+## The opening line
+
+**Lead with:** "NDA and contract queues triaged before a lawyer opens them."
+
+**Don't open with:** "Clause-by-clause review against your playbook." That is how it works. What
+they care about is the queue getting shorter.
+
+> This is the sentence to say out loud. The ladder below is the reasoning
+> behind it, not a script.
+
 ## The ladder
 
 Laddering: climb from what the product *is* to what it *means* for this buyer.
 
-| Rung | |
+| | |
 |---|---|
-| **1. Feature** | Clause-by-clause review against your own playbook |
-| **2. Functional benefit** | NDA and contract queues triaged before a lawyer opens them |
-| **3. Business outcome** | Legal handles more volume without adding headcount |
-| **4. What it means for them** | You keep the judgment call and lose the reading |
+| **What it is** | Clause-by-clause review against your own playbook |
+| **What it does** | NDA and contract queues triaged before a lawyer opens them |
+| **What it's worth** | Legal handles more volume without adding headcount |
+| **What it means for them** | You keep the judgment call and lose the reading |
 
-**Lead from rung 2 or 3. Never rung 1.** A feature-led opening is the most
-common failure in B2B copy, and it is structurally fine — it just argues at the
-wrong altitude. Rung 3 is where a business case lives; rung 2 is where a first
-conversation lives.
+**Open with what it does, or what it's worth. Never with what it is.** A
+feature-led opening is the most common failure in B2B copy, and it is
+structurally fine — it just argues at the wrong altitude. "What it's worth" is
+where a business case lives; "what it does" is where a first conversation lives.
 
-**Rung 4 shapes emphasis; it is rarely said out loud.** Naming a buyer's
-personal exposure back to them reads as manipulative and costs you the room.
-Use it to decide what to lead with, not as a line in the asset.
+**"What it means for them" shapes emphasis and is rarely said out loud.** Naming
+a buyer's personal exposure back to them reads as manipulative and costs you the
+room. Use it to decide what to lead with, not as a line in the asset.
 
 ## The GC is not only a gatekeeper
 
