@@ -88,6 +88,39 @@ assets. If the request doesn't say which motion, ask.
 
 Full rules: `.claude/skills/gtm-from-positioning/SKILL.md`.
 
+## Which skill builds what
+
+Map the request to a skill in `plugin/skills/<name>/SKILL.md`, then read that
+file and follow it. It owns the conventions for its format.
+
+| They want | Skill |
+|---|---|
+| Several assets for one campaign | `campaign-kit` |
+| Web page, hero, section | `landing-page` |
+| Deck, pitch, narrative | `pitch-and-narrative-deck` |
+| Email, nurture, lifecycle | `campaign-email` |
+| Outreach, sequence, cold email | `sales-outreach-sequence` |
+| Blog, article, thought leadership | `blog-post` |
+| One-pager, leave-behind | `persona-one-pager` |
+| Competitor comparison | `competitive-battlecard` |
+| Help a champion sell internally | `internal-champion-pitch` |
+| Prep for a specific meeting | `deal-prep` |
+| Pressure-test something already written | `roleplay-tester` |
+
+**Several assets at once means `campaign-kit`, not three separate skills.** It
+holds one lead argument and one proof point across the set. Built separately,
+they disagree.
+
+**Before building, you need three things.** Infer what you can and ask only for
+what's left. "A deck for a CFO" already gives you two of three.
+
+1. **The buyer** — a folder in `personas/`. No folder means no persona; say so
+   and build the function-agnostic version rather than improvising one.
+2. **The motion** — one team, or the whole company. This changes the value-prop
+   ranking, so ask when the request doesn't say. Usually the only question worth
+   asking.
+3. **The asset** — the table above.
+
 ## Using it
 
 **Clone and open it** — works today, no install step:
@@ -108,19 +141,18 @@ purchase — in plain language. No file names, no jargon, nobody to ask.
 **Upload one file** — the path for someone who will never open GitHub:
 
 Download `plugin/skills/cowork-positioning/SKILL.md` and upload it to Cowork as
-a skill. That one file is the whole front door. It reads the repo over its
-public raw URL at request time, and fetches whichever asset skill the request
-needs, so:
+a skill.
 
-- Nothing to install beyond the single upload, and no connector required.
-- **It cannot go stale.** Change the positioning here and the next request picks
-  it up. The uploaded file is a pointer, not a copy.
+That file is a pointer and nothing else. It carries the repo address, the order
+to try for reading it, and an instruction to stop rather than improvise if it
+can't. Everything else — routing, precedence, the non-negotiables — is in this
+README and read at request time.
+
+So the positioning updates without anyone re-uploading anything. The only reason
+to replace that file is if the repo address changes.
 
 Raw link:
 `https://raw.githubusercontent.com/amulyauppala1-jpg/Claude-Cowork-Positioning/main/plugin/skills/cowork-positioning/SKILL.md`
-
-This is the path to demo, because it is the one a campaign manager would
-actually take.
 
 **Install as a plugin** — for people who shouldn't have to clone anything:
 
